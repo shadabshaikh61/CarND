@@ -1,0 +1,4 @@
+12.368, 76.590 top left
+12.358, 76.590 bottom left
+12.358, 76.605 bottom right
+12.368, 76.605 top right
