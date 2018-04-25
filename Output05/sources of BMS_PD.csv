@@ -1,0 +1,685 @@
+name,sourceline,column,DSSQLType,DSNativeType,DSScale,DSSQLPrecision,DSSchema
+ODBCConnector,2829,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,2829,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,2867,EFFECT_DTE,9,,,10,date
+DB2Connector,2867,ADVALL_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PIC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,BGNBUY_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PRCCHG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,NOCODE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,OTHMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,PRCCHG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,MERPER_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,BGNBUY_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,INSMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,FREE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,OTHMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,STDMFG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,NEWINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,2867,STDMFG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,INVADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,PRCCHG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,ALTSRC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,DIV_NUM,3,,,3,"decimal[3,0]"
+DB2Connector,2867,BUYIN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,ALTSRC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,OTHMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,FREE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PROMO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PRCDEC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,OTHADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,OTHADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,FREE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,AP_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,BUYIN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,AP_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,STDMFG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,ALTSRC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,ADVALL_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,PRCCHG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"
+DB2Connector,2867,FREE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,RCNIFO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,NOCODE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,ADVALL_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PROMO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PHARM_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,INVADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,PROMO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,FSA_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,INVADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,INVADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,BUYIN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,MERPER_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,ALTSRC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,CUSMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,2867,PHARM_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,AP_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,RCNIFO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PHARM_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PROMO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,ADVALL_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,VENDOR_NUM,3,,,5,"decimal[5,0]"
+DB2Connector,2867,BGNBUY_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,OTHADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,PRCDEC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,INSMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,NOCODE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,INVMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,2867,PHARM_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,RCNIFO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,OLDINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,2867,CHANGE_STP,11,,6,29,timestamp
+DB2Connector,2867,INSMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,BGNBUY_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,STDMFG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,PRCDEC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,INSMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,RCNIFO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,AP_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,MERPER_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,MERPER_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,NOCODE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,PRCDEC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,BUYIN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,2867,OTHMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,OTHADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,2867,ONHAND_QTY,3,,,8,"decimal[8,0]"
+ODBCConnector,18130,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,18130,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,18169,EFFECT_DTE,9,,,10,date
+DB2Connector,18169,ADVALL_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PIC_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,18169,BGNBUY_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PRCCHG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,NOCODE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,OTHMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,PRCCHG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,MERPER_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,BGNBUY_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,INSMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,FREE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,OTHMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,STDMFG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,NEWINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,18169,STDMFG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,INVADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,PRCCHG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,ALTSRC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,DIV_NUM,3,,,3,"decimal[3,0]"
+DB2Connector,18169,BUYIN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,ALTSRC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,OTHMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,FREE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PROMO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PRCDEC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,OTHADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,OTHADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,FREE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,AP_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,BUYIN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,AP_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,STDMFG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,ALTSRC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,ADVALL_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,PRCCHG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"
+DB2Connector,18169,FREE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,RCNIFO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,NOCODE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,ADVALL_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PROMO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PHARM_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,INVADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,PROMO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,FSA_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,18169,INVADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,INVADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,BUYIN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,MERPER_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,ALTSRC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,CUSMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,18169,PHARM_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,AP_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,RCNIFO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PHARM_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PROMO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,ADVALL_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,VENDOR_NUM,3,,,5,"decimal[5,0]"
+DB2Connector,18169,BGNBUY_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,OTHADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,PRCDEC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,INSMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,NOCODE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,INVMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,18169,PHARM_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,RCNIFO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,OLDINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,18169,CHANGE_STP,11,,,19,timestamp
+DB2Connector,18169,INSMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,BGNBUY_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,STDMFG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,PRCDEC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,INSMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,RCNIFO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,AP_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,MERPER_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,MERPER_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,NOCODE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,PRCDEC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,BUYIN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,18169,OTHMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,OTHADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,18169,ONHAND_QTY,3,,,8,"decimal[8,0]"
+ODBCConnector,34775,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,34775,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,34848,DUMMY,12,,,10,nullable string[max=10]
+OracleConnector,35082,ROW_ADD_STP,11,,,19,nullable timestamp
+OracleConnector,35082,ROW_ADD_USER_ID,12,,,8,nullable string[max=8]
+OracleConnector,35082,ETL_CNTRL_NUM,4,,,10,nullable int32
+OracleConnector,38189,DUMMY,12,,,1,nullable string[max=1]
+ODBCConnector,39649,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,39649,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,39681,NextAvailControlNumber,12,,,10,nullable string[max=10]
+ODBCConnector,44159,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,44159,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,44209,MARGIN_CTGRY_KEY_NUM,3,,,10,"decimal[10,0]"
+OracleConnector,44209,MARGIN_CTGRY_DESC,12,,,100,string[max=100]
+TeradataConnector,44392,MARGIN_CTGRY_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,44392,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+TeradataConnector,44392,MARGIN_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,44392,ROW_ADD_STP,11,,6,29,nullable timestamp
+ODBCConnector,48433,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,48433,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,48465,TRNSCT_CTGRY_KEY_NUM,-5,,,10,int64
+OracleConnector,48465,TRNSCT_CTGRY_DESC,12,,,100,string[max=100]
+TeradataConnector,48527,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,48527,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+TeradataConnector,48527,TRNSCT_CTGRY_KEY_NUM,-5,,,10,nullable int64
+TeradataConnector,48527,TRNSCT_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+ODBCConnector,52159,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,52159,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,52191,TRNSCT_TYPE_DESC,12,,,100,string[max=100]
+OracleConnector,52191,TRNSCT_TYPE_KEY_NUM,-5,,,10,int64
+TeradataConnector,52253,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,52253,TRNSCT_TYPE_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,52253,TRNSCT_TYPE_KEY_NUM,-5,,,10,nullable int64
+TeradataConnector,52253,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+ODBCConnector,56208,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,56208,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,56241,MARGIN_CTGRY_KEY_NUM,4,,,10,int32
+TeradataConnector,56241,DTE_KEY_NUM,4,,,10,int32
+TeradataConnector,56241,TRNSCT_CTGRY_KEY_NUM,4,,,10,int32
+TeradataConnector,56241,PROD_KEY_NUM,4,,,10,int32
+TeradataConnector,56241,ROW_ADD_USER_ID,12,,,8,nullable string[max=8]
+TeradataConnector,56241,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,56241,DIST_CENTER_KEY_NUM,4,,,10,int32
+TeradataConnector,56241,MARGIN_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,56241,TRNSCT_TYPE_KEY_NUM,4,,,10,int32
+TeradataConnector,56241,MARGIN_QTY,4,,,8,int32
+ODBCConnector,60950,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,60950,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,60983,NEW_INVTRY_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,60983,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+TeradataConnector,60983,INVST_MARGIN_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,60983,DTE_KEY_NUM,-5,,,10,int64
+TeradataConnector,60983,TRNSCT_CTGRY_KEY_NUM,-5,,,10,int64
+TeradataConnector,60983,PROD_KEY_NUM,-5,,,10,int64
+TeradataConnector,60983,OLD_INVTRY_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,60983,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,60983,DIST_CENTER_KEY_NUM,-5,,,10,int64
+TeradataConnector,60983,CUSTOMER_MARGIN_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,60983,PRICE_INCRS_CREDIT_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,60983,FSA_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,60983,ON_HAND_QTY,4,,,8,int32
+ODBCConnector,66738,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,66738,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,66825,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,66825,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,67032,EFFECT_DTE,11,,,19,timestamp
+OracleConnector,67032,ADVALL_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PIC_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,67032,BGNBUY_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PRCCHG_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,NOCODE_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,OTHMGN_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,PRCCHG_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,MERPER_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,BGNBUY_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,INSMGN_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,FREE_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,OTHMGN_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,STDMFG_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,NEWINV_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,67032,STDMFG_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,INVADJ_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,PRCCHG_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,ALTSRC_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,DIV_NUM,3,,,3,"decimal[3,0]"
+OracleConnector,67032,BUYIN_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,ALTSRC_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,OTHMGN_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,FREE_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PROMO_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PRCDEC_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,OTHADJ_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,OTHADJ_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,FREE_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,AP_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,BUYIN_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,AP_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,STDMFG_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,ALTSRC_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,ADVALL_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,PRCCHG_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"
+OracleConnector,67032,FREE_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,RCNIFO_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,NOCODE_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,ADVALL_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PROMO_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PHARM_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,INVADJ_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,PROMO_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,FSA_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,67032,INVADJ_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,INVADJ_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,BUYIN_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,MERPER_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,ALTSRC_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,CUSMGN_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,67032,PHARM_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,AP_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,RCNIFO_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PHARM_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PROMO_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,ADVALL_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,VENDOR_NUM,3,,,5,"decimal[5,0]"
+OracleConnector,67032,BGNBUY_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,OTHADJ_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,PRCDEC_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,INSMGN_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,NOCODE_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,INVMGN_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,67032,PHARM_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,RCNIFO_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,OLDINV_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,67032,CHANGE_STP,11,,,19,timestamp
+OracleConnector,67032,INSMGN_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,BGNBUY_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,STDMFG_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,SRC_FILE,12,,,1,string[max=1]
+OracleConnector,67032,PRCDEC_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,INSMGN_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,RCNIFO_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,AP_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,MERPER_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,MERPER_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,NOCODE_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,PRCDEC_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,BUYIN_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,67032,OTHMGN_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,OTHADJ_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,67032,ONHAND_QTY,3,,,8,"decimal[8,0]"
+TeradataConnector,67301,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,67301,RFRNC_DTE,11,,,19,nullable timestamp
+TeradataConnector,67383,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,67383,LOCATION_NUM,3,,,3,"nullable decimal[3,0]"
+TeradataConnector,67421,CORP_ITEM_NUM,3,,,7,"nullable decimal[7,0]"
+TeradataConnector,67421,PROD_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,67563,TRNSCT_TYPE_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,67563,TRNSCT_TYPE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,67710,TRNSCT_CTGRY_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,67710,TRNSCT_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,67747,MARGIN_CTGRY_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,67747,MARGIN_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+ODBCConnector,216766,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,216766,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,216802,EFFECT_DTE,9,,,10,date
+DB2Connector,216802,ADVALL_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PIC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,BGNBUY_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PRCCHG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,NOCODE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,OTHMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,PRCCHG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,MERPER_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,BGNBUY_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,INSMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,FREE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,OTHMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,STDMFG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,NEWINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,216802,STDMFG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,INVADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,PRCCHG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,ALTSRC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,DIV_NUM,3,,,3,"decimal[3,0]"
+DB2Connector,216802,BUYIN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,ALTSRC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,OTHMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,FREE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PROMO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PRCDEC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,OTHADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,OTHADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,FREE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,AP_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,BUYIN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,AP_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,STDMFG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,ALTSRC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,ADVALL_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,PRCCHG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"
+DB2Connector,216802,FREE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,RCNIFO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,NOCODE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,ADVALL_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PROMO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PHARM_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,INVADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,PROMO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,FSA_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,INVADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,INVADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,BUYIN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,MERPER_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,ALTSRC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,CUSMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,216802,PHARM_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,AP_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,RCNIFO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PHARM_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PROMO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,ADVALL_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,VENDOR_NUM,3,,,5,"decimal[5,0]"
+DB2Connector,216802,BGNBUY_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,OTHADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,PRCDEC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,INSMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,NOCODE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,INVMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,216802,PHARM_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,RCNIFO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,OLDINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,216802,CHANGE_STP,11,,6,29,timestamp
+DB2Connector,216802,INSMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,BGNBUY_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,STDMFG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,PRCDEC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,INSMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,RCNIFO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,AP_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,MERPER_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,MERPER_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,NOCODE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,PRCDEC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,BUYIN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,216802,OTHMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,OTHADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,216802,ONHAND_QTY,3,,,8,"decimal[8,0]"
+ODBCConnector,229707,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,229707,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,229744,EFFECT_DTE,9,,,10,date
+DB2Connector,229744,ADVALL_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PIC_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,229744,BGNBUY_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PRCCHG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,NOCODE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,OTHMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,PRCCHG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,MERPER_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,BGNBUY_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,INSMGN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,FREE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,OTHMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,STDMFG_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,NEWINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,229744,STDMFG_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,INVADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,PRCCHG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,ALTSRC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,DIV_NUM,3,,,3,"decimal[3,0]"
+DB2Connector,229744,BUYIN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,ALTSRC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,OTHMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,FREE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PROMO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PRCDEC_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,OTHADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,OTHADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,FREE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,AP_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,BUYIN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,AP_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,STDMFG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,ALTSRC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,ADVALL_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,PRCCHG_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"
+DB2Connector,229744,FREE_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,RCNIFO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,NOCODE_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,ADVALL_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PROMO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PHARM_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,INVADJ_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,PROMO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,FSA_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,229744,INVADJ_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,INVADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,BUYIN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,MERPER_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,ALTSRC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,CUSMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,229744,PHARM_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,AP_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,RCNIFO_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PHARM_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PROMO_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,ADVALL_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,VENDOR_NUM,3,,,5,"decimal[5,0]"
+DB2Connector,229744,BGNBUY_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,OTHADJ_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,PRCDEC_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,INSMGN_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,NOCODE_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,INVMGN_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,229744,PHARM_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,RCNIFO_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,OLDINV_DLR,3,,2,9,"decimal[9,2]"
+DB2Connector,229744,CHANGE_STP,11,,,19,timestamp
+DB2Connector,229744,INSMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,BGNBUY_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,STDMFG_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,PRCDEC_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,INSMGN_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,RCNIFO_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,AP_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,MERPER_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,MERPER_QTY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,NOCODE_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,PRCDEC_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,BUYIN_VQY,3,,,8,"decimal[8,0]"
+DB2Connector,229744,OTHMGN_VDR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,OTHADJ_DLR,3,,2,16,"decimal[16,2]"
+DB2Connector,229744,ONHAND_QTY,3,,,8,"decimal[8,0]"
+ODBCConnector,249258,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,249258,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,249327,DUMMY,12,,,10,nullable string[max=10]
+OracleConnector,249549,ROW_ADD_STP,11,,,19,nullable timestamp
+OracleConnector,249549,ROW_ADD_USER_ID,12,,,8,nullable string[max=8]
+OracleConnector,249549,ETL_CNTRL_NUM,4,,,10,nullable int32
+OracleConnector,251926,DUMMY,12,,,1,nullable string[max=1]
+ODBCConnector,261673,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,261673,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,261705,NextAvailControlNumber,12,,,10,nullable string[max=10]
+ODBCConnector,274763,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,274763,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,274809,MARGIN_CTGRY_KEY_NUM,3,,,10,"decimal[10,0]"
+OracleConnector,274809,MARGIN_CTGRY_DESC,12,,,100,string[max=100]
+TeradataConnector,274986,MARGIN_CTGRY_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,274986,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+TeradataConnector,274986,MARGIN_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,274986,ROW_ADD_STP,11,,6,29,nullable timestamp
+ODBCConnector,284455,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,284455,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,284485,TRNSCT_CTGRY_KEY_NUM,-5,,,10,int64
+OracleConnector,284485,TRNSCT_CTGRY_DESC,12,,,100,string[max=100]
+TeradataConnector,284543,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,284543,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+TeradataConnector,284543,TRNSCT_CTGRY_KEY_NUM,-5,,,10,nullable int64
+TeradataConnector,284543,TRNSCT_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+ODBCConnector,294006,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,294006,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,294036,TRNSCT_TYPE_DESC,12,,,100,string[max=100]
+OracleConnector,294036,TRNSCT_TYPE_KEY_NUM,-5,,,10,int64
+TeradataConnector,294094,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,294094,TRNSCT_TYPE_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,294094,TRNSCT_TYPE_KEY_NUM,-5,,,10,nullable int64
+TeradataConnector,294094,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+ODBCConnector,304382,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,304382,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,304415,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,304415,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,304471,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,304471,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,304633,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,304633,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,308326,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,308326,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,308380,MARGIN_CTGRY_KEY_NUM,4,,,10,int32
+TeradataConnector,308380,DTE_KEY_NUM,4,,,10,int32
+TeradataConnector,308380,TRNSCT_CTGRY_KEY_NUM,4,,,10,int32
+TeradataConnector,308380,PROD_KEY_NUM,4,,,10,int32
+TeradataConnector,308380,ROW_ADD_USER_ID,12,,,8,nullable string[max=8]
+TeradataConnector,308380,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,308380,DIST_CENTER_KEY_NUM,4,,,10,int32
+TeradataConnector,308380,MARGIN_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,308380,TRNSCT_TYPE_KEY_NUM,4,,,10,int32
+TeradataConnector,308380,MARGIN_QTY,4,,,8,int32
+ODBCConnector,323063,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,323063,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,323124,NEW_INVTRY_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,323124,ROW_ADD_USER_ID,12,,,8,nullable ustring[max=8]
+TeradataConnector,323124,INVST_MARGIN_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,323124,DTE_KEY_NUM,-5,,,10,int64
+TeradataConnector,323124,TRNSCT_CTGRY_KEY_NUM,-5,,,10,int64
+TeradataConnector,323124,PROD_KEY_NUM,-5,,,10,int64
+TeradataConnector,323124,OLD_INVTRY_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,323124,ROW_ADD_STP,11,,6,26,nullable timestamp
+TeradataConnector,323124,DIST_CENTER_KEY_NUM,-5,,,10,int64
+TeradataConnector,323124,CUSTOMER_MARGIN_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,323124,PRICE_INCRS_CREDIT_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,323124,FSA_DLR,3,,2,11,"decimal[11,2]"
+TeradataConnector,323124,ON_HAND_QTY,4,,,8,int32
+ODBCConnector,344703,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,344703,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,344782,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,344782,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,344987,EFFECT_DTE,11,,,19,timestamp
+OracleConnector,344987,ADVALL_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PIC_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,344987,BGNBUY_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PRCCHG_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,NOCODE_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,OTHMGN_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,PRCCHG_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,MERPER_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,BGNBUY_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,INSMGN_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,FREE_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,OTHMGN_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,STDMFG_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,NEWINV_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,344987,STDMFG_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,INVADJ_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,PRCCHG_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,ALTSRC_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,DIV_NUM,3,,,3,"decimal[3,0]"
+OracleConnector,344987,BUYIN_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,ALTSRC_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,OTHMGN_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,FREE_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PROMO_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PRCDEC_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,OTHADJ_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,OTHADJ_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,FREE_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,AP_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,BUYIN_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,AP_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,STDMFG_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,ALTSRC_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,ADVALL_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,PRCCHG_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"
+OracleConnector,344987,FREE_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,RCNIFO_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,NOCODE_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,ADVALL_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PROMO_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PHARM_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,INVADJ_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,PROMO_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,FSA_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,344987,INVADJ_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,INVADJ_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,BUYIN_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,MERPER_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,ALTSRC_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,CUSMGN_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,344987,PHARM_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,AP_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,RCNIFO_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PHARM_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PROMO_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,ADVALL_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,VENDOR_NUM,3,,,5,"decimal[5,0]"
+OracleConnector,344987,BGNBUY_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,OTHADJ_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,PRCDEC_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,INSMGN_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,NOCODE_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,INVMGN_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,344987,PHARM_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,RCNIFO_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,OLDINV_DLR,3,,2,9,"decimal[9,2]"
+OracleConnector,344987,CHANGE_STP,11,,,19,timestamp
+OracleConnector,344987,INSMGN_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,BGNBUY_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,STDMFG_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,SRC_FILE,12,,,1,string[max=1]
+OracleConnector,344987,PRCDEC_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,INSMGN_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,RCNIFO_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,AP_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,MERPER_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,MERPER_QTY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,NOCODE_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,PRCDEC_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,BUYIN_VQY,3,,,8,"decimal[8,0]"
+OracleConnector,344987,OTHMGN_VDR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,OTHADJ_DLR,3,,2,16,"decimal[16,2]"
+OracleConnector,344987,ONHAND_QTY,3,,,8,"decimal[8,0]"
+TeradataConnector,345252,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,345252,RFRNC_DTE,11,,,19,nullable timestamp
+TeradataConnector,345330,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,345330,LOCATION_NUM,3,,,3,"nullable decimal[3,0]"
+TeradataConnector,345367,CORP_ITEM_NUM,3,,,7,"nullable decimal[7,0]"
+TeradataConnector,345367,PROD_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,345501,TRNSCT_TYPE_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,345501,TRNSCT_TYPE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,345641,TRNSCT_CTGRY_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,345641,TRNSCT_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+TeradataConnector,345676,MARGIN_CTGRY_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,345676,MARGIN_CTGRY_DESC,12,,,100,nullable ustring[max=100]
+ODBCConnector,361532,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,361532,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,362213,Dummykey,12,,,10,nullable ustring[max=10]
+TeradataConnector,362213,ProdKeyNum,4,,,10,nullable int32
+TeradataConnector,362251,CORP_ITEM_NUM,3,,,7,"nullable decimal[7,0]"
+TeradataConnector,362251,PROD_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,362251,CURR_VRSN_FLG,12,,,1,nullable ustring[max=1]
+OracleConnector,362350,CORP_ITEM_NUM,3,,,7,"decimal[7,0]"

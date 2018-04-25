@@ -1,0 +1,2447 @@
+name,sourceline,column,DSSQLType,DSNativeType,DSScale,DSSQLPrecision,DSSchema
+OracleConnector,234,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,234,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,234,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,234,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,1969,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1969,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1969,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1969,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,2992,DUMMY,1,,,1,nullable string[1]
+DB2Connector,3157,COUNT,4,,,10,int32
+OracleConnector,4709,HIC_DESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,4709,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,4709,HIC,12,VARCHAR2,,6,nullable string[max=6]
+OracleConnector,4709,HIC_ROOT,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,4709,HIC_POT_IN,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,4709,ING_STATUS,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,5773,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,6625,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,6625,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,7516,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,7516,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,8330,TM_ALTMEDD,12,VARCHAR2,,70,nullable string[max=70]
+OracleConnector,8330,TM_SOURCID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,8330,TM_GROUPID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,8330,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,8330,TM_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,9402,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+OracleConnector,9402,GCN_SEQNO,3,NUMBER,,6,"decimal[6,0]"
+OracleConnector,10706,DDXCN_SN,3,NUMBER,,2,"decimal[2,0]"
+OracleConnector,10706,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+OracleConnector,10706,DDXCN_SL,1,CHAR,,1,nullable string[1]
+OracleConnector,10706,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+OracleConnector,10706,DDXCN_REF,12,VARCHAR2,,26,nullable string[max=26]
+OracleConnector,10706,DXID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,12422,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+OracleConnector,12422,DXID_DISEASE_DURATION_CD,1,CHAR,,1,nullable string[1]
+OracleConnector,12422,DXID_DESC100,12,VARCHAR2,,100,nullable string[max=100]
+OracleConnector,12422,DXID_STATUS,1,CHAR,,1,nullable string[1]
+OracleConnector,12422,DXID_DESC56,12,VARCHAR2,,56,nullable string[max=56]
+OracleConnector,12422,DXID,3,NUMBER,,8,"decimal[8,0]"
+OracleConnector,14166,ICD_STATUS_CD,1,CHAR,,1,nullable string[1]
+OracleConnector,14166,ICD_DESC_SOURCE_CD,1,CHAR,,2,nullable string[2]
+OracleConnector,14166,ICD_LAST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,14166,ICD_BILLABLE_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,14166,ICD_CD,12,VARCHAR2,,10,string[max=10]
+OracleConnector,14166,ICD_FIRST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,14166,ICD_CDE_TYPE,1,,,2,string[2]
+OracleConnector,14166,ICD_DESC,12,VARCHAR2,,500,nullable string[max=500]
+OracleConnector,16134,SEARCH_ICD_CD,12,VARCHAR2,,10,string[max=10]
+OracleConnector,16134,FML_CLIN_CODE,1,CHAR,,2,string[2]
+OracleConnector,16134,ICD_CD_TYPE,1,CHAR,,2,string[2]
+OracleConnector,16134,RELATED_DXID,3,NUMBER,,8,"decimal[8,0]"
+OracleConnector,16134,FML_NAV_CODE,1,CHAR,,2,nullable string[2]
+OracleConnector,17774,MCR_COV,12,VARCHAR2,,1,nullable string[max=1]
+OracleConnector,17774,MCR_DATEC,12,VARCHAR2,,8,string[max=8]
+OracleConnector,17774,NDC,12,VARCHAR2,,11,string[max=11]
+OracleConnector,17774,MCR_REF,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,17774,MCR_REGION,12,VARCHAR2,,1,string[max=1]
+OracleConnector,19405,HCPC_PBP4,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC_PBP5,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC_PBP6,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC_PBP7,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,19405,HCPC_PBP1,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC_PBP2,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC_PBP3,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,19405,HCPC_PBP8,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,19405,HCPC_PBC8,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC5,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC4,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC7,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC6,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC1,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC3,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,19405,HCPC_PBC2,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,22474,MCR_BC,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,22474,MCR_BCDESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,22474,MCR_REFSN,3,NUMBER,,4,"decimal[4,0]"
+OracleConnector,22474,MCR_REF,12,VARCHAR2,,5,string[max=5]
+OracleConnector,140179,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,140179,AHFS8,2,,,8,"decimal[8,0]"
+DB2Connector,140355,AHFS_ID,12,,,8,string[max=8]
+DB2Connector,140355,AHFS_DESC,12,,,40,nullable string[max=40]
+ODBCConnector,142772,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,142772,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,142819,NDC,12,,,11,string[max=11]
+OracleConnector,142819,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,142819,AHFS_REL,2,,,2,"nullable decimal[2,0]"
+OracleConnector,142819,AHFS8,2,,,8,"decimal[8,0]"
+OracleConnector,147070,IPTBSCDESC,12,,,30,string[max=30]
+OracleConnector,147070,IPTBSCDID,2,,,5,"decimal[5,0]"
+OracleConnector,147070,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,148179,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,148179,IPTCATDESC,1,,,30,string[30]
+OracleConnector,149220,IPTDESCID,2,,,5,"decimal[5,0]"
+OracleConnector,149220,IPTBSCDID,2,,,5,"decimal[5,0]"
+OracleConnector,149220,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,149220,IPTDESC,12,,,30,string[max=30]
+OracleConnector,150398,IPTDFDESC,1,,,30,nullable string[30]
+OracleConnector,150398,IPTDFID,2,,,5,"nullable decimal[5,0]"
+OracleConnector,151448,IPTMFGID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,151448,IPTMFGNAME,12,,,30,nullable string[max=30]
+OracleConnector,152496,IPTDESCID,2,,,5,"decimal[5,0]"
+OracleConnector,152496,IPTPROPID,2,,,10,"decimal[10,0]"
+OracleConnector,152496,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,153603,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,153603,IPTSIDE1,12,,,40,nullable string[max=40]
+OracleConnector,153603,IPTSIDE2,12,,,40,nullable string[max=40]
+OracleConnector,154720,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,154720,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,155772,IPTTEXT,12,,,70,nullable string[max=70]
+OracleConnector,155772,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,155772,IPTLINENO,2,,,3,"nullable decimal[3,0]"
+OracleConnector,156888,IPTUNIQID,2,,,10,"decimal[10,0]"
+OracleConnector,156888,IPTNDC,12,,,20,string[max=20]
+OracleConnector,156888,IPTMFGID,2,,,10,"decimal[10,0]"
+OracleConnector,156888,IPTDFID,2,,,5,"decimal[5,0]"
+OracleConnector,158069,IPTUNIQID,2,,,10,"decimal[10,0]"
+OracleConnector,158069,IPTPROPID,2,,,10,"decimal[10,0]"
+OracleConnector,158069,IPTISTRTDT,2,,,8,"decimal[8,0]"
+OracleConnector,158069,IPTISTOPDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,158069,IPTIMGID,2,,,10,"decimal[10,0]"
+OracleConnector,159314,IPTUNIQID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,159314,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,159314,IPTSTRTDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,159314,IPTSTOPDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,159314,IPTLBLID,2,,,7,"nullable decimal[7,0]"
+OracleConnector,160570,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,160570,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,160570,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,160570,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,160643,MDT_BC,12,,,11,nullable string[max=11]
+OracleConnector,160643,MDT_FIDTE,12,,,8,nullable string[max=8]
+OracleConnector,160643,MDT_MAX,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,160643,NDC,12,,,11,nullable string[max=11]
+OracleConnector,160643,MDT_MIN,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,160643,MDT_MAXC,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,160643,MDT_GBC,12,,,11,nullable string[max=11]
+OracleConnector,160643,MDT_ID,12,,,2,nullable string[max=2]
+OracleConnector,160643,MDT_FREQ,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_SUB,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_BCDTE,12,,,8,nullable string[max=8]
+OracleConnector,160643,MDT_LTC,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_GBCDTE,12,,,8,nullable string[max=8]
+OracleConnector,160643,MDT_CODE1,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_RFL,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_COV,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_COP,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_SLC10,12,,,10,nullable string[max=10]
+OracleConnector,160643,MDT_MINC,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_FI,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_QBU,12,,,10,nullable string[max=10]
+OracleConnector,160643,MDT_PA,12,,,1,nullable string[max=1]
+OracleConnector,160643,MDT_BU,12,,,2,nullable string[max=2]
+OracleConnector,160643,MDT_FEE,12,,,1,nullable string[max=1]
+OracleConnector,160744,RT,12,,,10,nullable string[max=10]
+OracleConnector,160744,SYSTEMIC,12,,,1,nullable string[max=1]
+OracleConnector,160744,GCRT2,12,,,2,nullable string[max=2]
+OracleConnector,160744,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,160744,GCRT_DESC,12,,,40,nullable string[max=40]
+OracleConnector,160792,DPU_LN,12,,,27,nullable string[max=27]
+OracleConnector,160792,DPU_UPDT,12,,,1,nullable string[max=1]
+OracleConnector,160792,GPI,12,,,1,nullable string[max=1]
+OracleConnector,160792,CL,12,,,1,nullable string[max=1]
+OracleConnector,160792,DF,12,,,1,nullable string[max=1]
+OracleConnector,160792,BBX_C1,12,,,8,nullable string[max=8]
+OracleConnector,160792,BN,12,,,30,nullable string[max=30]
+OracleConnector,160792,DPU_REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,160792,GCN,12,,,5,nullable string[max=5]
+OracleConnector,160792,WHNX_C1,12,,,8,nullable string[max=8]
+OracleConnector,160792,FFPUL_C1,12,,,8,nullable string[max=8]
+OracleConnector,160792,UD,12,,,1,nullable string[max=1]
+OracleConnector,160792,DEA,12,,,1,nullable string[max=1]
+OracleConnector,160792,FFPUL_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,160792,BBX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,160792,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,160792,GI,12,,,1,nullable string[max=1]
+OracleConnector,160792,WHNX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,160792,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,160792,MFG10,12,,,10,nullable string[max=10]
+OracleConnector,160792,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,160792,DIRX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,160792,STR,12,,,10,nullable string[max=10]
+OracleConnector,160792,GNN,12,,,30,nullable string[max=30]
+OracleConnector,160792,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,160792,IPI,12,,,1,nullable string[max=1]
+OracleConnector,160792,DCC,12,,,1,nullable string[max=1]
+OracleConnector,160792,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,160792,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,160792,DIRX_C1,12,,,8,nullable string[max=8]
+OracleConnector,160792,NDC,12,,,11,string[max=11]
+OracleConnector,160908,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,160908,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,160908,STR60,12,,,60,nullable string[max=60]
+OracleConnector,160908,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,160908,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,160908,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,161401,GCRT,12,,,1,nullable string[max=1]
+OracleConnector,161401,GTC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,161401,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,161401,GCNSEQ_GI,12,,,1,nullable string[max=1]
+OracleConnector,161401,HIC3,12,,,3,nullable string[max=3]
+OracleConnector,161401,DCC,12,,,1,nullable string[max=1]
+OracleConnector,161401,STR60,12,,,60,nullable string[max=60]
+OracleConnector,161401,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,161401,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,161401,STR,12,,,10,nullable string[max=10]
+OracleConnector,161401,GENDER,12,,,1,nullable string[max=1]
+OracleConnector,161401,TC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,161401,HIC3_SEQN,3,,,6,"nullable decimal[6,0]"
+OracleConnector,161488,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,161488,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,161488,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,161593,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,161593,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,161593,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,161698,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,161698,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,161698,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,161789,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,161789,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,161789,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,161789,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,161862,MCR_COV,12,,,1,nullable string[max=1]
+OracleConnector,161862,MCR_DATEC,12,,,8,nullable string[max=8]
+OracleConnector,161862,MCR_BC,12,,,5,nullable string[max=5]
+OracleConnector,161862,MCR_REGION,12,,,1,nullable string[max=1]
+OracleConnector,161862,NDC,12,,,11,nullable string[max=11]
+OracleConnector,161862,MCR_REF,12,,,5,nullable string[max=5]
+OracleConnector,162001,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,162001,BN,12,,,30,nullable string[max=30]
+OracleConnector,162001,DESDTEC,12,,,8,nullable string[max=8]
+OracleConnector,162001,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,162001,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,162001,GSI,12,,,1,nullable string[max=1]
+OracleConnector,162001,HOME,12,,,1,nullable string[max=1]
+OracleConnector,162001,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,162001,HCFA_APPC,12,,,8,nullable string[max=8]
+OracleConnector,162001,HCFA_MRKC,12,,,8,nullable string[max=8]
+OracleConnector,162001,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,162001,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,162001,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,162001,STPK,12,,,1,nullable string[max=1]
+OracleConnector,162001,MINI,12,,,1,nullable string[max=1]
+OracleConnector,162001,GMI,12,,,1,nullable string[max=1]
+OracleConnector,162001,GPI,12,,,1,nullable string[max=1]
+OracleConnector,162001,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,162001,GTI,12,,,1,nullable string[max=1]
+OracleConnector,162001,NDC,12,,,11,nullable string[max=11]
+OracleConnector,162001,OBC,12,,,2,nullable string[max=2]
+OracleConnector,162001,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,162001,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,162001,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,162001,NDCGI1,12,,,1,nullable string[max=1]
+OracleConnector,162001,HCFA_FDA,12,,,2,nullable string[max=2]
+OracleConnector,162001,IPI,12,,,1,nullable string[max=1]
+OracleConnector,162001,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,162001,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,162001,HCFA_DC,12,,,1,nullable string[max=1]
+OracleConnector,162001,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,162001,DESI2,12,,,1,nullable string[max=1]
+OracleConnector,162001,DF,12,,,1,nullable string[max=1]
+OracleConnector,162001,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,162001,DES2DTEC,12,,,8,nullable string[max=8]
+OracleConnector,162001,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,162001,OBC_EXP,12,,,2,nullable string[max=2]
+OracleConnector,162001,HCFA_UNIT,12,,,3,nullable string[max=3]
+OracleConnector,162001,DEA,12,,,1,nullable string[max=1]
+OracleConnector,162001,GNI,12,,,1,nullable string[max=1]
+OracleConnector,162001,HCFA_TRMC,12,,,8,nullable string[max=8]
+OracleConnector,162001,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,162001,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,162001,LN,12,,,30,nullable string[max=30]
+OracleConnector,162001,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,162001,PPI,12,,,1,nullable string[max=1]
+OracleConnector,162001,CL,12,,,1,nullable string[max=1]
+OracleConnector,162001,HCFA_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,162001,PD,12,,,10,nullable string[max=10]
+OracleConnector,162001,DUPDC,12,,,8,nullable string[max=8]
+OracleConnector,162001,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,162001,HCFA_DESC1,12,,,8,nullable string[max=8]
+OracleConnector,162001,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,162001,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,162001,HCFA_TYP,12,,,1,nullable string[max=1]
+OracleConnector,162001,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,162001,AD,12,,,20,nullable string[max=20]
+OracleConnector,162001,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,162001,LN25,12,,,25,nullable string[max=25]
+OracleConnector,162001,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,162001,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,162001,UU,12,,,1,nullable string[max=1]
+OracleConnector,162001,LN60,12,,,60,nullable string[max=60]
+OracleConnector,162001,HCFA_DESI1,12,,,1,nullable string[max=1]
+OracleConnector,162001,UD,12,,,1,nullable string[max=1]
+OracleConnector,162001,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,162001,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,162001,DESI,12,,,1,nullable string[max=1]
+OracleConnector,212404,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,212404,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,212404,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,212404,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,212477,MDT_BC,12,,,11,nullable string[max=11]
+OracleConnector,212477,MDT_FIDTE,12,,,8,nullable string[max=8]
+OracleConnector,212477,MDT_MAX,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,212477,NDC,12,,,11,nullable string[max=11]
+OracleConnector,212477,MDT_MIN,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,212477,MDT_MAXC,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,212477,MDT_GBC,12,,,11,nullable string[max=11]
+OracleConnector,212477,MDT_ID,12,,,2,nullable string[max=2]
+OracleConnector,212477,MDT_FREQ,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_SUB,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_BCDTE,12,,,8,nullable string[max=8]
+OracleConnector,212477,MDT_LTC,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_GBCDTE,12,,,8,nullable string[max=8]
+OracleConnector,212477,MDT_CODE1,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_RFL,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_COV,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_COP,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_SLC10,12,,,10,nullable string[max=10]
+OracleConnector,212477,MDT_MINC,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_FI,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_QBU,12,,,10,nullable string[max=10]
+OracleConnector,212477,MDT_PA,12,,,1,nullable string[max=1]
+OracleConnector,212477,MDT_BU,12,,,2,nullable string[max=2]
+OracleConnector,212477,MDT_FEE,12,,,1,nullable string[max=1]
+OracleConnector,212578,RT,12,,,10,nullable string[max=10]
+OracleConnector,212578,SYSTEMIC,12,,,1,nullable string[max=1]
+OracleConnector,212578,GCRT2,12,,,2,nullable string[max=2]
+OracleConnector,212578,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,212578,GCRT_DESC,12,,,40,nullable string[max=40]
+OracleConnector,212626,DPU_LN,12,,,27,nullable string[max=27]
+OracleConnector,212626,DPU_UPDT,12,,,1,nullable string[max=1]
+OracleConnector,212626,GPI,12,,,1,nullable string[max=1]
+OracleConnector,212626,CL,12,,,1,nullable string[max=1]
+OracleConnector,212626,DF,12,,,1,nullable string[max=1]
+OracleConnector,212626,BBX_C1,12,,,8,nullable string[max=8]
+OracleConnector,212626,BN,12,,,30,nullable string[max=30]
+OracleConnector,212626,DPU_REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,212626,GCN,12,,,5,nullable string[max=5]
+OracleConnector,212626,WHNX_C1,12,,,8,nullable string[max=8]
+OracleConnector,212626,FFPUL_C1,12,,,8,nullable string[max=8]
+OracleConnector,212626,UD,12,,,1,nullable string[max=1]
+OracleConnector,212626,DEA,12,,,1,nullable string[max=1]
+OracleConnector,212626,FFPUL_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,212626,BBX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,212626,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,212626,GI,12,,,1,nullable string[max=1]
+OracleConnector,212626,WHNX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,212626,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,212626,MFG10,12,,,10,nullable string[max=10]
+OracleConnector,212626,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,212626,DIRX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,212626,STR,12,,,10,nullable string[max=10]
+OracleConnector,212626,GNN,12,,,30,nullable string[max=30]
+OracleConnector,212626,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,212626,IPI,12,,,1,nullable string[max=1]
+OracleConnector,212626,DCC,12,,,1,nullable string[max=1]
+OracleConnector,212626,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,212626,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,212626,DIRX_C1,12,,,8,nullable string[max=8]
+OracleConnector,212626,NDC,12,,,11,string[max=11]
+OracleConnector,212742,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,212742,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,212742,STR60,12,,,60,nullable string[max=60]
+OracleConnector,212742,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,212742,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,212742,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,213235,GCRT,12,,,1,nullable string[max=1]
+OracleConnector,213235,GTC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,213235,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,213235,GCNSEQ_GI,12,,,1,nullable string[max=1]
+OracleConnector,213235,HIC3,12,,,3,nullable string[max=3]
+OracleConnector,213235,DCC,12,,,1,nullable string[max=1]
+OracleConnector,213235,STR60,12,,,60,nullable string[max=60]
+OracleConnector,213235,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,213235,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,213235,STR,12,,,10,nullable string[max=10]
+OracleConnector,213235,GENDER,12,,,1,nullable string[max=1]
+OracleConnector,213235,TC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,213235,HIC3_SEQN,3,,,6,"nullable decimal[6,0]"
+OracleConnector,213322,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,213322,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,213322,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,213427,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,213427,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,213427,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,213532,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,213532,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,213532,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,213623,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,213623,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,213623,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,213623,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,213696,MCR_COV,12,,,1,nullable string[max=1]
+OracleConnector,213696,MCR_DATEC,12,,,8,nullable string[max=8]
+OracleConnector,213696,MCR_BC,12,,,5,nullable string[max=5]
+OracleConnector,213696,MCR_REGION,12,,,1,nullable string[max=1]
+OracleConnector,213696,NDC,12,,,11,nullable string[max=11]
+OracleConnector,213696,MCR_REF,12,,,5,nullable string[max=5]
+OracleConnector,213835,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,213835,BN,12,,,30,nullable string[max=30]
+OracleConnector,213835,DESDTEC,12,,,8,nullable string[max=8]
+OracleConnector,213835,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,213835,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,213835,GSI,12,,,1,nullable string[max=1]
+OracleConnector,213835,HOME,12,,,1,nullable string[max=1]
+OracleConnector,213835,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,213835,HCFA_APPC,12,,,8,nullable string[max=8]
+OracleConnector,213835,HCFA_MRKC,12,,,8,nullable string[max=8]
+OracleConnector,213835,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,213835,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,213835,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,213835,STPK,12,,,1,nullable string[max=1]
+OracleConnector,213835,MINI,12,,,1,nullable string[max=1]
+OracleConnector,213835,GMI,12,,,1,nullable string[max=1]
+OracleConnector,213835,GPI,12,,,1,nullable string[max=1]
+OracleConnector,213835,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,213835,GTI,12,,,1,nullable string[max=1]
+OracleConnector,213835,NDC,12,,,11,nullable string[max=11]
+OracleConnector,213835,OBC,12,,,2,nullable string[max=2]
+OracleConnector,213835,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,213835,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,213835,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,213835,NDCGI1,12,,,1,nullable string[max=1]
+OracleConnector,213835,HCFA_FDA,12,,,2,nullable string[max=2]
+OracleConnector,213835,IPI,12,,,1,nullable string[max=1]
+OracleConnector,213835,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,213835,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,213835,HCFA_DC,12,,,1,nullable string[max=1]
+OracleConnector,213835,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,213835,DESI2,12,,,1,nullable string[max=1]
+OracleConnector,213835,DF,12,,,1,nullable string[max=1]
+OracleConnector,213835,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,213835,DES2DTEC,12,,,8,nullable string[max=8]
+OracleConnector,213835,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,213835,OBC_EXP,12,,,2,nullable string[max=2]
+OracleConnector,213835,HCFA_UNIT,12,,,3,nullable string[max=3]
+OracleConnector,213835,DEA,12,,,1,nullable string[max=1]
+OracleConnector,213835,GNI,12,,,1,nullable string[max=1]
+OracleConnector,213835,HCFA_TRMC,12,,,8,nullable string[max=8]
+OracleConnector,213835,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,213835,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,213835,LN,12,,,30,nullable string[max=30]
+OracleConnector,213835,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,213835,PPI,12,,,1,nullable string[max=1]
+OracleConnector,213835,CL,12,,,1,nullable string[max=1]
+OracleConnector,213835,HCFA_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,213835,PD,12,,,10,nullable string[max=10]
+OracleConnector,213835,DUPDC,12,,,8,nullable string[max=8]
+OracleConnector,213835,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,213835,HCFA_DESC1,12,,,8,nullable string[max=8]
+OracleConnector,213835,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,213835,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,213835,HCFA_TYP,12,,,1,nullable string[max=1]
+OracleConnector,213835,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,213835,AD,12,,,20,nullable string[max=20]
+OracleConnector,213835,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,213835,LN25,12,,,25,nullable string[max=25]
+OracleConnector,213835,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,213835,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,213835,UU,12,,,1,nullable string[max=1]
+OracleConnector,213835,LN60,12,,,60,nullable string[max=60]
+OracleConnector,213835,HCFA_DESI1,12,,,1,nullable string[max=1]
+OracleConnector,213835,UD,12,,,1,nullable string[max=1]
+OracleConnector,213835,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,213835,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,213835,DESI,12,,,1,nullable string[max=1]
+OracleConnector,263807,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,263807,DF,12,,,1,nullable string[max=1]
+OracleConnector,263807,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,263807,BN,12,,,30,nullable string[max=30]
+OracleConnector,263807,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,263807,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,263807,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,263807,DEA,12,,,1,nullable string[max=1]
+OracleConnector,263807,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,263807,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,263807,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,263807,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,263807,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,263807,LN,12,,,30,nullable string[max=30]
+OracleConnector,263807,PPI,12,,,1,nullable string[max=1]
+OracleConnector,263807,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,263807,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,263807,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,263807,PD,12,,,10,nullable string[max=10]
+OracleConnector,263807,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,263807,HOME,12,,,1,nullable string[max=1]
+OracleConnector,263807,STPK,12,,,1,nullable string[max=1]
+OracleConnector,263807,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,263807,MINI,12,,,1,nullable string[max=1]
+OracleConnector,263807,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,263807,GPI,12,,,1,nullable string[max=1]
+OracleConnector,263807,CL,12,,,1,nullable string[max=1]
+OracleConnector,263807,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,263807,NDC,12,,,11,string[max=11]
+OracleConnector,263807,OBC,12,,,2,nullable string[max=2]
+OracleConnector,263807,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,263807,LN25,12,,,25,nullable string[max=25]
+OracleConnector,263807,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,263807,AD,12,,,20,nullable string[max=20]
+OracleConnector,263807,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,263807,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,263807,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,263807,UU,12,,,1,nullable string[max=1]
+OracleConnector,263807,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,263807,IPI,12,,,1,nullable string[max=1]
+OracleConnector,263807,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,263807,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,263807,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,263807,UD,12,,,1,nullable string[max=1]
+OracleConnector,263807,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,263807,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,263994,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,263994,GCN,3,,,5,"nullable decimal[5,0]"
+OracleConnector,264479,GNN,12,,,30,nullable string[max=30]
+OracleConnector,264479,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264479,GNN60,12,,,60,nullable string[max=60]
+OracleConnector,264479,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264527,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,264527,LBLRIND,12,,,1,nullable string[max=1]
+OracleConnector,264527,MFG,12,,,15,nullable string[max=15]
+OracleConnector,264577,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,264577,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,264577,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264577,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,264620,GCRT,12,,,1,nullable string[max=1]
+OracleConnector,264620,GTC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,264620,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264620,GCNSEQ_GI,12,,,1,nullable string[max=1]
+OracleConnector,264620,HIC3,12,,,3,nullable string[max=3]
+OracleConnector,264620,DCC,12,,,1,nullable string[max=1]
+OracleConnector,264620,STR60,12,,,60,nullable string[max=60]
+OracleConnector,264620,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,264620,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264620,STR,12,,,10,nullable string[max=10]
+OracleConnector,264620,GENDER,12,,,1,nullable string[max=1]
+OracleConnector,264620,TC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,264620,HIC3_SEQN,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264714,MDT_BC,12,,,11,nullable string[max=11]
+OracleConnector,264714,MDT_FIDTE,12,,,8,nullable string[max=8]
+OracleConnector,264714,MDT_MAX,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,264714,NDC,12,,,11,nullable string[max=11]
+OracleConnector,264714,MDT_MIN,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,264714,MDT_MAXC,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,264714,MDT_GBC,12,,,11,nullable string[max=11]
+OracleConnector,264714,MDT_ID,12,,,2,nullable string[max=2]
+OracleConnector,264714,MDT_FREQ,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_SUB,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_BCDTE,12,,,8,nullable string[max=8]
+OracleConnector,264714,MDT_LTC,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_GBCDTE,12,,,8,nullable string[max=8]
+OracleConnector,264714,MDT_CODE1,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_RFL,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_COV,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_COP,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_SLC10,12,,,10,nullable string[max=10]
+OracleConnector,264714,MDT_MINC,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_FI,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_QBU,12,,,10,nullable string[max=10]
+OracleConnector,264714,MDT_PA,12,,,1,nullable string[max=1]
+OracleConnector,264714,MDT_BU,12,,,2,nullable string[max=2]
+OracleConnector,264714,MDT_FEE,12,,,1,nullable string[max=1]
+OracleConnector,264814,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,264814,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264814,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,264814,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,264869,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,264869,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,264869,STR60,12,,,60,nullable string[max=60]
+OracleConnector,264869,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,264869,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,264869,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,264940,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,264940,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,264940,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,265004,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,265004,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,265004,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,265056,MCR_COV,12,,,1,nullable string[max=1]
+OracleConnector,265056,MCR_DATEC,12,,,8,nullable string[max=8]
+OracleConnector,265056,MCR_BC,12,,,5,nullable string[max=5]
+OracleConnector,265056,MCR_REGION,12,,,1,nullable string[max=1]
+OracleConnector,265056,NDC,12,,,11,nullable string[max=11]
+OracleConnector,265056,MCR_REF,12,,,5,nullable string[max=5]
+OracleConnector,265114,RT,12,,,10,nullable string[max=10]
+OracleConnector,265114,SYSTEMIC,12,,,1,nullable string[max=1]
+OracleConnector,265114,GCRT2,12,,,2,nullable string[max=2]
+OracleConnector,265114,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,265114,GCRT_DESC,12,,,40,nullable string[max=40]
+OracleConnector,265183,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,265183,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,265183,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,308596,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,308596,DF,12,,,1,nullable string[max=1]
+OracleConnector,308596,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,308596,BN,12,,,30,nullable string[max=30]
+OracleConnector,308596,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,308596,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,308596,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,308596,DEA,12,,,1,nullable string[max=1]
+OracleConnector,308596,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,308596,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,308596,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,308596,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,308596,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,308596,LN,12,,,30,nullable string[max=30]
+OracleConnector,308596,PPI,12,,,1,nullable string[max=1]
+OracleConnector,308596,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,308596,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,308596,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,308596,PD,12,,,10,nullable string[max=10]
+OracleConnector,308596,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,308596,HOME,12,,,1,nullable string[max=1]
+OracleConnector,308596,STPK,12,,,1,nullable string[max=1]
+OracleConnector,308596,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,308596,MINI,12,,,1,nullable string[max=1]
+OracleConnector,308596,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,308596,GPI,12,,,1,nullable string[max=1]
+OracleConnector,308596,CL,12,,,1,nullable string[max=1]
+OracleConnector,308596,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,308596,NDC,12,,,11,string[max=11]
+OracleConnector,308596,OBC,12,,,2,nullable string[max=2]
+OracleConnector,308596,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,308596,LN25,12,,,25,nullable string[max=25]
+OracleConnector,308596,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,308596,AD,12,,,20,nullable string[max=20]
+OracleConnector,308596,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,308596,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,308596,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,308596,UU,12,,,1,nullable string[max=1]
+OracleConnector,308596,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,308596,IPI,12,,,1,nullable string[max=1]
+OracleConnector,308596,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,308596,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,308596,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,308596,UD,12,,,1,nullable string[max=1]
+OracleConnector,308596,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,308596,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,308783,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,308783,GCN,3,,,5,"nullable decimal[5,0]"
+OracleConnector,309268,GNN,12,,,30,nullable string[max=30]
+OracleConnector,309268,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309268,GNN60,12,,,60,nullable string[max=60]
+OracleConnector,309268,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309316,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,309316,LBLRIND,12,,,1,nullable string[max=1]
+OracleConnector,309316,MFG,12,,,15,nullable string[max=15]
+OracleConnector,309366,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,309366,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,309366,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309366,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,309409,GCRT,12,,,1,nullable string[max=1]
+OracleConnector,309409,GTC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,309409,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309409,GCNSEQ_GI,12,,,1,nullable string[max=1]
+OracleConnector,309409,HIC3,12,,,3,nullable string[max=3]
+OracleConnector,309409,DCC,12,,,1,nullable string[max=1]
+OracleConnector,309409,STR60,12,,,60,nullable string[max=60]
+OracleConnector,309409,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,309409,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309409,STR,12,,,10,nullable string[max=10]
+OracleConnector,309409,GENDER,12,,,1,nullable string[max=1]
+OracleConnector,309409,TC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,309409,HIC3_SEQN,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309503,MDT_BC,12,,,11,nullable string[max=11]
+OracleConnector,309503,MDT_FIDTE,12,,,8,nullable string[max=8]
+OracleConnector,309503,MDT_MAX,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,309503,NDC,12,,,11,nullable string[max=11]
+OracleConnector,309503,MDT_MIN,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,309503,MDT_MAXC,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,309503,MDT_GBC,12,,,11,nullable string[max=11]
+OracleConnector,309503,MDT_ID,12,,,2,nullable string[max=2]
+OracleConnector,309503,MDT_FREQ,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_SUB,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_BCDTE,12,,,8,nullable string[max=8]
+OracleConnector,309503,MDT_LTC,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_GBCDTE,12,,,8,nullable string[max=8]
+OracleConnector,309503,MDT_CODE1,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_RFL,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_COV,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_COP,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_SLC10,12,,,10,nullable string[max=10]
+OracleConnector,309503,MDT_MINC,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_FI,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_QBU,12,,,10,nullable string[max=10]
+OracleConnector,309503,MDT_PA,12,,,1,nullable string[max=1]
+OracleConnector,309503,MDT_BU,12,,,2,nullable string[max=2]
+OracleConnector,309503,MDT_FEE,12,,,1,nullable string[max=1]
+OracleConnector,309603,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,309603,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309603,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,309603,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,309658,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,309658,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309658,STR60,12,,,60,nullable string[max=60]
+OracleConnector,309658,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,309658,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,309658,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,309729,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,309729,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,309729,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,309793,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,309793,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,309793,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,309845,MCR_COV,12,,,1,nullable string[max=1]
+OracleConnector,309845,MCR_DATEC,12,,,8,nullable string[max=8]
+OracleConnector,309845,MCR_BC,12,,,5,nullable string[max=5]
+OracleConnector,309845,MCR_REGION,12,,,1,nullable string[max=1]
+OracleConnector,309845,NDC,12,,,11,nullable string[max=11]
+OracleConnector,309845,MCR_REF,12,,,5,nullable string[max=5]
+OracleConnector,309903,RT,12,,,10,nullable string[max=10]
+OracleConnector,309903,SYSTEMIC,12,,,1,nullable string[max=1]
+OracleConnector,309903,GCRT2,12,,,2,nullable string[max=2]
+OracleConnector,309903,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,309903,GCRT_DESC,12,,,40,nullable string[max=40]
+OracleConnector,309972,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,309972,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,309972,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,353263,BLP_PRICE,3,,5,9,"nullable decimal[9,5]"
+OracleConnector,353263,NDC,12,,,11,string[max=11]
+OracleConnector,353263,GCN_SEQNO,3,,,6,"decimal[6,0]"
+OracleConnector,353263,PS,3,,3,11,"decimal[11,3]"
+OracleConnector,353263,BLP_DATEC,12,,,8,string[max=8]
+OracleConnector,356576,NDC,12,,,11,string[max=11]
+OracleConnector,356576,CAS9_TBL,3,,,9,"nullable decimal[9,0]"
+OracleConnector,358123,NDC,12,,,11,string[max=11]
+OracleConnector,358123,LBL_WARN,12,,,4,string[max=4]
+OracleConnector,359972,NDC,12,,,11,string[max=11]
+OracleConnector,359972,NPT_DATEC,1,,,8,string[8]
+OracleConnector,359972,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,362908,NDC,12,,,11,string[max=11]
+OracleConnector,362908,NPT_DATEC,1,,,8,string[8]
+OracleConnector,362908,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,365603,NDC,12,,,11,string[max=11]
+OracleConnector,365603,NPT_DATEC,1,,,8,string[8]
+OracleConnector,365603,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,368557,NDC,12,,,11,string[max=11]
+OracleConnector,368557,NPT_DATEC,1,,,8,string[8]
+OracleConnector,368557,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,371198,NDC,12,,,11,string[max=11]
+OracleConnector,371198,NPT_DATEC,1,,,8,string[8]
+OracleConnector,371198,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,373834,NDC,12,,,11,string[max=11]
+OracleConnector,373834,NPT_DATEC,1,,,8,string[8]
+OracleConnector,373834,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,376538,NDC,12,,,11,string[max=11]
+OracleConnector,376538,NPT_DATEC,1,,,8,string[8]
+OracleConnector,376538,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,379436,DCC,12,,,1,string[max=1]
+OracleConnector,379436,DCC_DESC,12,,,40,nullable string[max=40]
+OracleConnector,380519,OBC_SN,2,,,2,"decimal[2,0]"
+OracleConnector,380519,OBC,12,,,2,string[max=2]
+OracleConnector,380519,OBC_DESC,12,,,60,nullable string[max=60]
+OracleConnector,381698,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,381698,AHFS8,2,,,8,"decimal[8,0]"
+OracleConnector,382799,GTC_DESC,12,,,50,nullable string[max=50]
+OracleConnector,382799,GTC,2,,,2,"decimal[2,0]"
+OracleConnector,383890,TC_DESC,12,,,50,nullable string[max=50]
+OracleConnector,383890,TC,2,,,2,"decimal[2,0]"
+OracleConnector,384975,HIC3_DESC,12,,,50,nullable string[max=50]
+OracleConnector,384975,HIC3_GRPN,2,,,6,"nullable decimal[6,0]"
+OracleConnector,384975,HIC3_SEQN,2,,,6,"decimal[6,0]"
+OracleConnector,384975,HIC3,12,,,3,string[max=3]
+OracleConnector,386093,GMI,12,,,1,nullable string[max=1]
+OracleConnector,386093,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,386093,DUPDC,1,,,8,nullable string[8]
+OracleConnector,386093,NDC,12,,,11,string[max=11]
+OracleConnector,386093,GNI,12,,,1,nullable string[max=1]
+OracleConnector,386093,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,386093,OBC3,1,,,3,nullable string[3]
+OracleConnector,386142,GCDF,1,,,2,nullable string[2]
+OracleConnector,386142,GCRT,1,,,1,nullable string[1]
+OracleConnector,386142,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,386194,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,386194,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,386194,STR60,12,,,60,nullable string[max=60]
+OracleConnector,386194,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,386194,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,386194,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,386495,NDC,12,,,11,nullable string[max=11]
+OracleConnector,386495,NPT_DATEC,1,,,8,nullable string[8]
+OracleConnector,386495,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,386618,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,386618,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,386618,IPTISTRTDT,1,,,8,nullable string[8]
+OracleConnector,386725,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,386725,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,386725,IPTISTRTDT,1,,,8,nullable string[8]
+OracleConnector,386807,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,386807,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,386807,IPTISTRTDT,1,,,8,nullable string[8]
+OracleConnector,386920,NDC,12,,,11,nullable string[max=11]
+OracleConnector,386920,ANDA_IND,2,,,1,"nullable decimal[1,0]"
+OracleConnector,386920,NDA_IND,2,,,1,"nullable decimal[1,0]"
+OracleConnector,398641,NDC_ATTRIBUTE_SN,2,,,4,"nullable decimal[4,0]"
+OracleConnector,398641,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+OracleConnector,398641,NDC,12,,,11,nullable string[max=11]
+OracleConnector,398641,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,399820,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,399820,NDC_ATTRIBUTE_TYPE_DSC,12,,,100,nullable string[max=100]
+OracleConnector,400862,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+OracleConnector,400862,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,400862,NDC_ATTRIBUTE_VALUE_DSC,12,,,50,nullable string[max=50]
+OracleConnector,420158,DUMMY,12,,,1,nullable string[max=1]
+OracleConnector,420905,HIC_DESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,420905,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,420905,HIC,12,VARCHAR2,,6,nullable string[max=6]
+OracleConnector,420905,HIC_ROOT,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,420905,HIC_POT_IN,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,420905,ING_STATUS,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,424286,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,424286,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,426621,NDC,12,VARCHAR2,,11,string[max=11]
+OracleConnector,426621,HIC_SEQN,3,NUMBER,,6,"decimal[6,0]"
+OracleConnector,428319,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,429723,TM_ALTMEDD,12,VARCHAR2,,70,nullable string[max=70]
+OracleConnector,429723,TM_SOURCID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,429723,TM_GROUPID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,429723,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,429723,TM_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,525208,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,525208,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,525208,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,525208,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,526185,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,526185,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,526185,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,526185,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,529418,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,529418,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,529418,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,529418,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,529557,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,529557,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,529557,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,529557,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,529602,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,529602,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,529602,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,529602,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,530473,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,530473,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,530473,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,530473,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,534521,DUMMY,1,,,1,nullable string[1]
+DB2Connector,534627,DUMMY,1,,,1,nullable string[1]
+OracleConnector,535909,DUMMY,1,,,1,nullable string[1]
+DB2Connector,536048,COUNT,4,,,10,int32
+OracleConnector,537591,HIC_DESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,537591,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,537591,HIC,12,VARCHAR2,,6,nullable string[max=6]
+OracleConnector,537591,HIC_ROOT,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,537591,HIC_POT_IN,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,537591,ING_STATUS,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,539627,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,540349,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,540764,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,540764,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,541492,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,541492,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,542623,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,542623,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,542950,TM_ALTMEDD,12,VARCHAR2,,70,nullable string[max=70]
+OracleConnector,542950,TM_SOURCID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,542950,TM_GROUPID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,542950,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,542950,TM_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,543887,TM_ALTMEDD,12,VARCHAR2,,70,nullable string[max=70]
+OracleConnector,543887,TM_SOURCID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,543887,TM_GROUPID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,543887,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,543887,TM_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,546134,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+OracleConnector,546134,GCN_SEQNO,3,NUMBER,,6,"decimal[6,0]"
+DB2Connector,546174,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+DB2Connector,546174,GCN_SEQNO,3,NUMBER,,6,"decimal[6,0]"
+OracleConnector,547311,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+OracleConnector,547311,GCN_SEQNO,3,NUMBER,,6,"decimal[6,0]"
+OracleConnector,550249,DDXCN_SN,3,NUMBER,,2,"decimal[2,0]"
+OracleConnector,550249,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+OracleConnector,550249,DDXCN_SL,1,CHAR,,1,nullable string[1]
+OracleConnector,550249,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+OracleConnector,550249,DDXCN_REF,12,VARCHAR2,,26,nullable string[max=26]
+OracleConnector,550249,DXID,3,NUMBER,,8,"nullable decimal[8,0]"
+DB2Connector,550298,DDXCN_SN,3,NUMBER,,2,"decimal[2,0]"
+DB2Connector,550298,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+DB2Connector,550298,DDXCN_SL,1,CHAR,,1,nullable string[1]
+DB2Connector,550298,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+DB2Connector,550298,DDXCN_REF,12,VARCHAR2,,26,nullable string[max=26]
+DB2Connector,550298,DXID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,551837,DDXCN_SN,3,NUMBER,,2,"decimal[2,0]"
+OracleConnector,551837,DDXCN,3,NUMBER,,5,"decimal[5,0]"
+OracleConnector,551837,DDXCN_SL,1,CHAR,,1,nullable string[1]
+OracleConnector,551837,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+OracleConnector,551837,DDXCN_REF,12,VARCHAR2,,26,nullable string[max=26]
+OracleConnector,551837,DXID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,554797,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+OracleConnector,554797,DXID_DISEASE_DURATION_CD,1,CHAR,,1,nullable string[1]
+OracleConnector,554797,DXID_DESC100,12,VARCHAR2,,100,nullable string[max=100]
+OracleConnector,554797,DXID_STATUS,1,CHAR,,1,nullable string[1]
+OracleConnector,554797,DXID_DESC56,12,VARCHAR2,,56,nullable string[max=56]
+OracleConnector,554797,DXID,3,NUMBER,,8,"decimal[8,0]"
+DB2Connector,554846,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+DB2Connector,554846,DXID_DISEASE_DURATION_CD,1,CHAR,,1,nullable string[1]
+DB2Connector,554846,DXID_DESC100,12,VARCHAR2,,100,nullable string[max=100]
+DB2Connector,554846,DXID_STATUS,1,CHAR,,1,nullable string[1]
+DB2Connector,554846,DXID_DESC56,12,VARCHAR2,,56,nullable string[max=56]
+DB2Connector,554846,DXID,3,NUMBER,,8,"decimal[8,0]"
+OracleConnector,556414,FDBDX,12,VARCHAR2,,9,nullable string[max=9]
+OracleConnector,556414,DXID_DISEASE_DURATION_CD,1,CHAR,,1,nullable string[1]
+OracleConnector,556414,DXID_DESC100,12,VARCHAR2,,100,nullable string[max=100]
+OracleConnector,556414,DXID_STATUS,1,CHAR,,1,nullable string[1]
+OracleConnector,556414,DXID_DESC56,12,VARCHAR2,,56,nullable string[max=56]
+OracleConnector,556414,DXID,3,NUMBER,,8,"decimal[8,0]"
+OracleConnector,559620,ICD_STATUS_CD,1,CHAR,,1,nullable string[1]
+OracleConnector,559620,ICD_DESC_SOURCE_CD,1,CHAR,,2,nullable string[2]
+OracleConnector,559620,ICD_LAST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,559620,ICD_BILLABLE_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,559620,ICD_CD,12,VARCHAR2,,10,string[max=10]
+OracleConnector,559620,ICD_FIRST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,559620,ICD_CDE_TYPE,1,,,2,string[2]
+OracleConnector,559620,ICD_DESC,12,VARCHAR2,,500,nullable string[max=500]
+DB2Connector,559673,ICD_STATUS_CD,1,CHAR,,1,nullable string[1]
+DB2Connector,559673,ICD_DESC_SOURCE_CD,1,CHAR,,2,nullable string[2]
+DB2Connector,559673,ICD_LAST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+DB2Connector,559673,ICD_BILLABLE_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+DB2Connector,559673,ICD_CD,12,VARCHAR2,,10,string[max=10]
+DB2Connector,559673,ICD_FIRST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+DB2Connector,559673,ICD_CDE_TYPE,1,,,2,string[2]
+DB2Connector,559673,ICD_DESC,12,VARCHAR2,,500,nullable string[max=500]
+OracleConnector,561461,ICD_STATUS_CD,1,CHAR,,1,nullable string[1]
+OracleConnector,561461,ICD_DESC_SOURCE_CD,1,CHAR,,2,nullable string[2]
+OracleConnector,561461,ICD_LAST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,561461,ICD_BILLABLE_IND,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,561461,ICD_CD,12,VARCHAR2,,10,string[max=10]
+OracleConnector,561461,ICD_FIRST_DT,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,561461,ICD_CDE_TYPE,1,,,2,string[2]
+OracleConnector,561461,ICD_DESC,12,VARCHAR2,,500,nullable string[max=500]
+OracleConnector,564243,SEARCH_ICD_CD,12,VARCHAR2,,10,string[max=10]
+OracleConnector,564243,FML_CLIN_CODE,1,CHAR,,2,string[2]
+OracleConnector,564243,ICD_CD_TYPE,1,CHAR,,2,string[2]
+OracleConnector,564243,RELATED_DXID,3,NUMBER,,8,"decimal[8,0]"
+OracleConnector,564243,FML_NAV_CODE,1,CHAR,,2,nullable string[2]
+DB2Connector,564290,SEARCH_ICD_CD,12,VARCHAR2,,10,string[max=10]
+DB2Connector,564290,FML_CLIN_CODE,1,CHAR,,2,string[2]
+DB2Connector,564290,ICD_CD_TYPE,1,CHAR,,2,string[2]
+DB2Connector,564290,RELATED_DXID,3,NUMBER,,8,"decimal[8,0]"
+DB2Connector,564290,FML_NAV_CODE,1,CHAR,,2,nullable string[2]
+OracleConnector,565757,SEARCH_ICD_CD,12,VARCHAR2,,10,string[max=10]
+OracleConnector,565757,FML_CLIN_CODE,1,CHAR,,2,string[2]
+OracleConnector,565757,ICD_CD_TYPE,1,CHAR,,2,string[2]
+OracleConnector,565757,RELATED_DXID,3,NUMBER,,8,"decimal[8,0]"
+OracleConnector,565757,FML_NAV_CODE,1,CHAR,,2,nullable string[2]
+OracleConnector,568393,MCR_COV,12,VARCHAR2,,1,nullable string[max=1]
+OracleConnector,568393,MCR_DATEC,12,VARCHAR2,,8,string[max=8]
+OracleConnector,568393,NDC,12,VARCHAR2,,11,string[max=11]
+OracleConnector,568393,MCR_REF,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,568393,MCR_REGION,12,VARCHAR2,,1,string[max=1]
+DB2Connector,568439,MCR_COV,12,VARCHAR2,,1,nullable string[max=1]
+DB2Connector,568439,MCR_DATEC,12,VARCHAR2,,8,string[max=8]
+DB2Connector,568439,NDC,12,VARCHAR2,,11,string[max=11]
+DB2Connector,568439,MCR_REF,12,VARCHAR2,,5,nullable string[max=5]
+DB2Connector,568439,MCR_REGION,12,VARCHAR2,,1,string[max=1]
+OracleConnector,569896,MCR_COV,12,VARCHAR2,,1,nullable string[max=1]
+OracleConnector,569896,MCR_DATEC,12,VARCHAR2,,8,string[max=8]
+OracleConnector,569896,NDC,12,VARCHAR2,,11,string[max=11]
+OracleConnector,569896,MCR_REF,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,569896,MCR_REGION,12,VARCHAR2,,1,string[max=1]
+OracleConnector,574117,HCPC_PBP4,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC_PBP5,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC_PBP6,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC_PBP7,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,574117,HCPC_PBP1,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC_PBP2,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC_PBP3,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,574117,HCPC_PBP8,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,574117,HCPC_PBC8,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC5,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC4,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC7,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC6,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC1,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC3,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,574117,HCPC_PBC2,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBP4,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC_PBP5,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC_PBP6,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC_PBP7,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC,12,VARCHAR2,,5,nullable string[max=5]
+DB2Connector,574193,HCPC_PBP1,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC_PBP2,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC_PBP3,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,NDC,12,VARCHAR2,,11,nullable string[max=11]
+DB2Connector,574193,HCPC_PBP8,3,NUMBER,5,11,"nullable decimal[11,5]"
+DB2Connector,574193,HCPC_PBC8,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC5,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC4,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC7,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC6,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC1,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC3,12,VARCHAR2,,8,nullable string[max=8]
+DB2Connector,574193,HCPC_PBC2,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBP4,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC_PBP5,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC_PBP6,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC_PBP7,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,577060,HCPC_PBP1,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC_PBP2,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC_PBP3,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,577060,HCPC_PBP8,3,NUMBER,5,11,"nullable decimal[11,5]"
+OracleConnector,577060,HCPC_PBC8,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC5,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC4,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC7,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC6,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC1,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC3,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,577060,HCPC_PBC2,12,VARCHAR2,,8,nullable string[max=8]
+OracleConnector,579997,MCR_BC,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,579997,MCR_BCDESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,579997,MCR_REFSN,3,NUMBER,,4,"decimal[4,0]"
+OracleConnector,579997,MCR_REF,12,VARCHAR2,,5,string[max=5]
+DB2Connector,580044,MCR_BC,12,VARCHAR2,,5,nullable string[max=5]
+DB2Connector,580044,MCR_BCDESC,12,VARCHAR2,,50,nullable string[max=50]
+DB2Connector,580044,MCR_REFSN,3,NUMBER,,4,"decimal[4,0]"
+DB2Connector,580044,MCR_REF,12,VARCHAR2,,5,string[max=5]
+OracleConnector,581406,MCR_BC,12,VARCHAR2,,5,nullable string[max=5]
+OracleConnector,581406,MCR_BCDESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,581406,MCR_REFSN,3,NUMBER,,4,"decimal[4,0]"
+OracleConnector,581406,MCR_REF,12,VARCHAR2,,5,string[max=5]
+OracleConnector,927742,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,927742,AHFS8,2,,,8,"decimal[8,0]"
+DB2Connector,927841,AHFS_DESC,12,,,40,nullable string[max=40]
+DB2Connector,927841,AHFS8,2,,,8,"decimal[8,0]"
+DB2Connector,927879,AHFS_DESC,12,,,40,nullable string[max=40]
+DB2Connector,927879,AHFS8,2,,,8,"decimal[8,0]"
+DB2Connector,927917,AHFS_DESC,12,,,40,nullable string[max=40]
+DB2Connector,927917,AHFS8,2,,,8,"decimal[8,0]"
+OracleConnector,929748,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,929748,AHFS8,2,,,8,"decimal[8,0]"
+DB2Connector,929912,AHFS_ID,12,,,8,string[max=8]
+DB2Connector,929912,AHFS_DESC,12,,,40,nullable string[max=40]
+ODBCConnector,938860,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,938860,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,938908,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,938908,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,938983,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+DB2Connector,938983,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,940880,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,940880,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,940925,NDC,12,,,11,string[max=11]
+OracleConnector,940925,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,940925,AHFS_REL,2,,,2,"nullable decimal[2,0]"
+OracleConnector,940925,AHFS8,2,,,8,"decimal[8,0]"
+OracleConnector,950637,IPTBSCDESC,12,,,30,string[max=30]
+OracleConnector,950637,IPTBSCDID,2,,,5,"decimal[5,0]"
+OracleConnector,950637,IPTCATID,2,,,5,"decimal[5,0]"
+DB2Connector,950698,IPTBSCDESC,12,,,30,string[max=30]
+DB2Connector,950698,IPTBSCDID,2,,,5,"decimal[5,0]"
+DB2Connector,950698,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,951554,IPTBSCDESC,12,,,30,string[max=30]
+OracleConnector,951554,IPTBSCDID,2,,,5,"decimal[5,0]"
+OracleConnector,951554,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,953768,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,953768,IPTCATDESC,1,,,30,string[30]
+DB2Connector,953827,IPTCATID,2,,,5,"decimal[5,0]"
+DB2Connector,953827,IPTCATDESC,1,,,30,string[30]
+OracleConnector,954618,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,954618,IPTCATDESC,1,,,30,string[30]
+OracleConnector,956922,IPTDESCID,2,,,5,"decimal[5,0]"
+OracleConnector,956922,IPTBSCDID,2,,,5,"decimal[5,0]"
+OracleConnector,956922,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,956922,IPTDESC,12,,,30,string[max=30]
+DB2Connector,956987,IPTDESCID,2,,,5,"decimal[5,0]"
+DB2Connector,956987,IPTBSCDID,2,,,5,"decimal[5,0]"
+DB2Connector,956987,IPTCATID,2,,,5,"decimal[5,0]"
+DB2Connector,956987,IPTDESC,12,,,30,string[max=30]
+OracleConnector,957908,IPTDESCID,2,,,5,"decimal[5,0]"
+OracleConnector,957908,IPTBSCDID,2,,,5,"decimal[5,0]"
+OracleConnector,957908,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,957908,IPTDESC,12,,,30,string[max=30]
+OracleConnector,960380,IPTDFDESC,1,,,30,nullable string[30]
+OracleConnector,960380,IPTDFID,2,,,5,"nullable decimal[5,0]"
+DB2Connector,960441,IPTDFDESC,1,,,30,nullable string[30]
+DB2Connector,960441,IPTDFID,2,,,5,"nullable decimal[5,0]"
+OracleConnector,961239,IPTDFDESC,1,,,30,nullable string[30]
+OracleConnector,961239,IPTDFID,2,,,5,"nullable decimal[5,0]"
+OracleConnector,963684,IPTMFGID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,963684,IPTMFGNAME,12,,,30,nullable string[max=30]
+DB2Connector,963745,IPTMFGID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,963745,IPTMFGNAME,12,,,30,nullable string[max=30]
+OracleConnector,964543,IPTMFGID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,964543,IPTMFGNAME,12,,,30,nullable string[max=30]
+OracleConnector,966741,IPTDESCID,2,,,5,"decimal[5,0]"
+OracleConnector,966741,IPTPROPID,2,,,10,"decimal[10,0]"
+OracleConnector,966741,IPTCATID,2,,,5,"decimal[5,0]"
+DB2Connector,966802,IPTDESCID,2,,,5,"decimal[5,0]"
+DB2Connector,966802,IPTPROPID,2,,,10,"decimal[10,0]"
+DB2Connector,966802,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,967656,IPTDESCID,2,,,5,"decimal[5,0]"
+OracleConnector,967656,IPTPROPID,2,,,10,"decimal[10,0]"
+OracleConnector,967656,IPTCATID,2,,,5,"decimal[5,0]"
+OracleConnector,970210,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,970210,IPTSIDE1,12,,,40,nullable string[max=40]
+OracleConnector,970210,IPTSIDE2,12,,,40,nullable string[max=40]
+DB2Connector,970272,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,970272,IPTSIDE1,12,,,40,nullable string[max=40]
+DB2Connector,970272,IPTSIDE2,12,,,40,nullable string[max=40]
+OracleConnector,971135,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,971135,IPTSIDE1,12,,,40,nullable string[max=40]
+OracleConnector,971135,IPTSIDE2,12,,,40,nullable string[max=40]
+OracleConnector,973581,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,973581,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,973642,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,973642,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,974440,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,974440,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,977005,IPTTEXT,12,,,70,nullable string[max=70]
+OracleConnector,977005,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,977005,IPTLINENO,2,,,3,"nullable decimal[3,0]"
+DB2Connector,977068,IPTTEXT,12,,,70,nullable string[max=70]
+DB2Connector,977068,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,977068,IPTLINENO,2,,,3,"nullable decimal[3,0]"
+OracleConnector,977932,IPTTEXT,12,,,70,nullable string[max=70]
+OracleConnector,977932,IPTTEXTID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,977932,IPTLINENO,2,,,3,"nullable decimal[3,0]"
+OracleConnector,980249,IPTUNIQID,2,,,10,"decimal[10,0]"
+OracleConnector,980249,IPTNDC,12,,,20,string[max=20]
+OracleConnector,980249,IPTMFGID,2,,,10,"decimal[10,0]"
+OracleConnector,980249,IPTDFID,2,,,5,"decimal[5,0]"
+DB2Connector,980313,IPTUNIQID,2,,,10,"decimal[10,0]"
+DB2Connector,980313,IPTNDC,12,,,20,string[max=20]
+DB2Connector,980313,IPTMFGID,2,,,10,"decimal[10,0]"
+DB2Connector,980313,IPTDFID,2,,,5,"decimal[5,0]"
+OracleConnector,981236,IPTUNIQID,2,,,10,"decimal[10,0]"
+OracleConnector,981236,IPTNDC,12,,,20,string[max=20]
+OracleConnector,981236,IPTMFGID,2,,,10,"decimal[10,0]"
+OracleConnector,981236,IPTDFID,2,,,5,"decimal[5,0]"
+OracleConnector,983689,IPTUNIQID,2,,,10,"decimal[10,0]"
+OracleConnector,983689,IPTPROPID,2,,,10,"decimal[10,0]"
+OracleConnector,983689,IPTISTRTDT,2,,,8,"decimal[8,0]"
+OracleConnector,983689,IPTISTOPDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,983689,IPTIMGID,2,,,10,"decimal[10,0]"
+DB2Connector,983758,IPTUNIQID,2,,,10,"decimal[10,0]"
+DB2Connector,983758,IPTPROPID,2,,,10,"decimal[10,0]"
+DB2Connector,983758,IPTISTRTDT,2,,,8,"decimal[8,0]"
+DB2Connector,983758,IPTISTOPDT,2,,,8,"nullable decimal[8,0]"
+DB2Connector,983758,IPTIMGID,2,,,10,"decimal[10,0]"
+OracleConnector,984742,IPTUNIQID,2,,,10,"decimal[10,0]"
+OracleConnector,984742,IPTPROPID,2,,,10,"decimal[10,0]"
+OracleConnector,984742,IPTISTRTDT,2,,,8,"decimal[8,0]"
+OracleConnector,984742,IPTISTOPDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,984742,IPTIMGID,2,,,10,"decimal[10,0]"
+OracleConnector,987424,IPTUNIQID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,987424,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,987424,IPTSTRTDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,987424,IPTSTOPDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,987424,IPTLBLID,2,,,7,"nullable decimal[7,0]"
+DB2Connector,987492,IPTUNIQID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,987492,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+DB2Connector,987492,IPTSTRTDT,2,,,8,"nullable decimal[8,0]"
+DB2Connector,987492,IPTSTOPDT,2,,,8,"nullable decimal[8,0]"
+DB2Connector,987492,IPTLBLID,2,,,7,"nullable decimal[7,0]"
+OracleConnector,988486,IPTUNIQID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,988486,IPTPROPID,2,,,10,"nullable decimal[10,0]"
+OracleConnector,988486,IPTSTRTDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,988486,IPTSTOPDT,2,,,8,"nullable decimal[8,0]"
+OracleConnector,988486,IPTLBLID,2,,,7,"nullable decimal[7,0]"
+OracleConnector,1003187,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1003187,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1003187,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1003187,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1003259,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1003259,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1003259,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1003259,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1003361,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1003361,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1003361,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1003361,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1003408,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1003408,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1003408,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1003408,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1003524,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1003524,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1003524,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1003524,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004018,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004018,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004018,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004018,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004105,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004105,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004105,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004105,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004210,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004210,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004210,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004210,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004315,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004315,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004315,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004315,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004406,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004406,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004406,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004406,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004479,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004479,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004479,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004479,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1004617,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1004617,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1004617,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1004617,DOSE,12,,,10,nullable string[max=10]
+DB2Connector,1004884,GCDF,12,,,2,nullable string[max=2]
+DB2Connector,1004884,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+DB2Connector,1004884,GCDF_DESC,12,,,40,nullable string[max=40]
+DB2Connector,1004884,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1054642,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1054642,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1054642,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1054642,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1054713,MDT_BC,12,,,11,nullable string[max=11]
+OracleConnector,1054713,MDT_FIDTE,12,,,8,nullable string[max=8]
+OracleConnector,1054713,MDT_MAX,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1054713,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1054713,MDT_MIN,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1054713,MDT_MAXC,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1054713,MDT_GBC,12,,,11,nullable string[max=11]
+OracleConnector,1054713,MDT_ID,12,,,2,nullable string[max=2]
+OracleConnector,1054713,MDT_FREQ,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_SUB,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_BCDTE,12,,,8,nullable string[max=8]
+OracleConnector,1054713,MDT_LTC,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_GBCDTE,12,,,8,nullable string[max=8]
+OracleConnector,1054713,MDT_CODE1,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_RFL,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_COV,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_COP,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_SLC10,12,,,10,nullable string[max=10]
+OracleConnector,1054713,MDT_MINC,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_FI,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_QBU,12,,,10,nullable string[max=10]
+OracleConnector,1054713,MDT_PA,12,,,1,nullable string[max=1]
+OracleConnector,1054713,MDT_BU,12,,,2,nullable string[max=2]
+OracleConnector,1054713,MDT_FEE,12,,,1,nullable string[max=1]
+OracleConnector,1054812,RT,12,,,10,nullable string[max=10]
+OracleConnector,1054812,SYSTEMIC,12,,,1,nullable string[max=1]
+OracleConnector,1054812,GCRT2,12,,,2,nullable string[max=2]
+OracleConnector,1054812,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1054812,GCRT_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1054858,DPU_LN,12,,,27,nullable string[max=27]
+OracleConnector,1054858,DPU_UPDT,12,,,1,nullable string[max=1]
+OracleConnector,1054858,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1054858,CL,12,,,1,nullable string[max=1]
+OracleConnector,1054858,DF,12,,,1,nullable string[max=1]
+OracleConnector,1054858,BBX_C1,12,,,8,nullable string[max=8]
+OracleConnector,1054858,BN,12,,,30,nullable string[max=30]
+OracleConnector,1054858,DPU_REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1054858,GCN,12,,,5,nullable string[max=5]
+OracleConnector,1054858,WHNX_C1,12,,,8,nullable string[max=8]
+OracleConnector,1054858,FFPUL_C1,12,,,8,nullable string[max=8]
+OracleConnector,1054858,UD,12,,,1,nullable string[max=1]
+OracleConnector,1054858,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1054858,FFPUL_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1054858,BBX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1054858,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1054858,GI,12,,,1,nullable string[max=1]
+OracleConnector,1054858,WHNX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1054858,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1054858,MFG10,12,,,10,nullable string[max=10]
+OracleConnector,1054858,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1054858,DIRX_P1,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1054858,STR,12,,,10,nullable string[max=10]
+OracleConnector,1054858,GNN,12,,,30,nullable string[max=30]
+OracleConnector,1054858,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1054858,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1054858,DCC,12,,,1,nullable string[max=1]
+OracleConnector,1054858,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1054858,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1054858,DIRX_C1,12,,,8,nullable string[max=8]
+OracleConnector,1054858,NDC,12,,,11,string[max=11]
+OracleConnector,1054972,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,1054972,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1054972,STR60,12,,,60,nullable string[max=60]
+OracleConnector,1054972,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,1054972,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1054972,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,1055437,GCRT,12,,,1,nullable string[max=1]
+OracleConnector,1055437,GTC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1055437,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1055437,GCNSEQ_GI,12,,,1,nullable string[max=1]
+OracleConnector,1055437,HIC3,12,,,3,nullable string[max=3]
+OracleConnector,1055437,DCC,12,,,1,nullable string[max=1]
+OracleConnector,1055437,STR60,12,,,60,nullable string[max=60]
+OracleConnector,1055437,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1055437,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1055437,STR,12,,,10,nullable string[max=10]
+OracleConnector,1055437,GENDER,12,,,1,nullable string[max=1]
+OracleConnector,1055437,TC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1055437,HIC3_SEQN,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1055522,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1055522,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1055522,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,1055621,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1055621,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1055621,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,1055720,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1055720,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1055720,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,1055805,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1055805,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1055805,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1055805,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,1055874,MCR_COV,12,,,1,nullable string[max=1]
+OracleConnector,1055874,MCR_DATEC,12,,,8,nullable string[max=8]
+OracleConnector,1055874,MCR_BC,12,,,5,nullable string[max=5]
+OracleConnector,1055874,MCR_REGION,12,,,1,nullable string[max=1]
+OracleConnector,1055874,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1055874,MCR_REF,12,,,5,nullable string[max=5]
+OracleConnector,1056009,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,BN,12,,,30,nullable string[max=30]
+OracleConnector,1056009,DESDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1056009,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1056009,GSI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1056009,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,HCFA_APPC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,HCFA_MRKC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1056009,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1056009,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1056009,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1056009,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1056009,GTI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1056009,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1056009,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1056009,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1056009,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,NDCGI1,12,,,1,nullable string[max=1]
+OracleConnector,1056009,HCFA_FDA,12,,,2,nullable string[max=2]
+OracleConnector,1056009,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1056009,HCFA_DC,12,,,1,nullable string[max=1]
+OracleConnector,1056009,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1056009,DESI2,12,,,1,nullable string[max=1]
+OracleConnector,1056009,DF,12,,,1,nullable string[max=1]
+OracleConnector,1056009,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1056009,DES2DTEC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1056009,OBC_EXP,12,,,2,nullable string[max=2]
+OracleConnector,1056009,HCFA_UNIT,12,,,3,nullable string[max=3]
+OracleConnector,1056009,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1056009,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,HCFA_TRMC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1056009,LN,12,,,30,nullable string[max=30]
+OracleConnector,1056009,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1056009,CL,12,,,1,nullable string[max=1]
+OracleConnector,1056009,HCFA_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1056009,PD,12,,,10,nullable string[max=10]
+OracleConnector,1056009,DUPDC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1056009,HCFA_DESC1,12,,,8,nullable string[max=8]
+OracleConnector,1056009,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1056009,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1056009,HCFA_TYP,12,,,1,nullable string[max=1]
+OracleConnector,1056009,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1056009,AD,12,,,20,nullable string[max=20]
+OracleConnector,1056009,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1056009,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1056009,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1056009,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1056009,UU,12,,,1,nullable string[max=1]
+OracleConnector,1056009,LN60,12,,,60,nullable string[max=60]
+OracleConnector,1056009,HCFA_DESI1,12,,,1,nullable string[max=1]
+OracleConnector,1056009,UD,12,,,1,nullable string[max=1]
+OracleConnector,1056009,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1056009,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1056009,DESI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1070283,DF,12,,,1,nullable string[max=1]
+OracleConnector,1070283,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1070283,BN,12,,,30,nullable string[max=30]
+OracleConnector,1070283,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070283,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070283,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1070283,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1070283,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1070283,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1070283,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1070283,LN,12,,,30,nullable string[max=30]
+OracleConnector,1070283,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1070283,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1070283,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1070283,PD,12,,,10,nullable string[max=10]
+OracleConnector,1070283,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1070283,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1070283,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1070283,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070283,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070283,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,CL,12,,,1,nullable string[max=1]
+OracleConnector,1070283,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,NDC,12,,,11,string[max=11]
+OracleConnector,1070283,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1070283,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1070283,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1070283,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1070283,AD,12,,,20,nullable string[max=20]
+OracleConnector,1070283,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070283,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070283,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1070283,UU,12,,,1,nullable string[max=1]
+OracleConnector,1070283,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1070283,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1070283,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1070283,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1070283,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1070283,UD,12,,,1,nullable string[max=1]
+OracleConnector,1070283,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1070283,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1070471,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1070471,DF,12,,,1,nullable string[max=1]
+OracleConnector,1070471,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1070471,BN,12,,,30,nullable string[max=30]
+OracleConnector,1070471,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070471,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070471,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1070471,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1070471,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1070471,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1070471,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1070471,LN,12,,,30,nullable string[max=30]
+OracleConnector,1070471,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1070471,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1070471,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1070471,PD,12,,,10,nullable string[max=10]
+OracleConnector,1070471,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1070471,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1070471,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1070471,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070471,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070471,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,CL,12,,,1,nullable string[max=1]
+OracleConnector,1070471,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,NDC,12,,,11,string[max=11]
+OracleConnector,1070471,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1070471,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1070471,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1070471,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1070471,AD,12,,,20,nullable string[max=20]
+OracleConnector,1070471,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070471,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070471,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1070471,UU,12,,,1,nullable string[max=1]
+OracleConnector,1070471,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1070471,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1070471,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1070471,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1070471,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1070471,UD,12,,,1,nullable string[max=1]
+OracleConnector,1070471,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1070471,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1070956,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1070956,DF,12,,,1,nullable string[max=1]
+OracleConnector,1070956,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1070956,BN,12,,,30,nullable string[max=30]
+OracleConnector,1070956,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070956,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070956,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1070956,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1070956,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1070956,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1070956,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1070956,LN,12,,,30,nullable string[max=30]
+OracleConnector,1070956,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1070956,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1070956,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1070956,PD,12,,,10,nullable string[max=10]
+OracleConnector,1070956,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1070956,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1070956,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1070956,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1070956,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070956,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,CL,12,,,1,nullable string[max=1]
+OracleConnector,1070956,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,NDC,12,,,11,string[max=11]
+OracleConnector,1070956,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1070956,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1070956,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1070956,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1070956,AD,12,,,20,nullable string[max=20]
+OracleConnector,1070956,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070956,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1070956,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1070956,UU,12,,,1,nullable string[max=1]
+OracleConnector,1070956,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1070956,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1070956,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1070956,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1070956,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1070956,UD,12,,,1,nullable string[max=1]
+OracleConnector,1070956,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1070956,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071004,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071004,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071004,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071004,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071004,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071004,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071004,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071004,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071004,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071004,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071004,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071004,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071004,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071004,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071004,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071004,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071004,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071004,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071004,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071004,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071004,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071004,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071004,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,NDC,12,,,11,string[max=11]
+OracleConnector,1071004,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071004,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071004,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071004,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071004,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071004,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071004,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071004,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071004,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071004,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071004,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071004,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071004,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071004,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071004,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071004,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071004,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071054,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071054,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071054,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071054,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071054,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071054,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071054,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071054,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071054,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071054,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071054,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071054,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071054,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071054,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071054,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071054,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071054,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071054,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071054,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071054,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071054,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071054,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071054,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,NDC,12,,,11,string[max=11]
+OracleConnector,1071054,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071054,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071054,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071054,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071054,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071054,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071054,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071054,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071054,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071054,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071054,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071054,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071054,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071054,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071054,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071054,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071054,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071097,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071097,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071097,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071097,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071097,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071097,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071097,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071097,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071097,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071097,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071097,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071097,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071097,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071097,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071097,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071097,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071097,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071097,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071097,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071097,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071097,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071097,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071097,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,NDC,12,,,11,string[max=11]
+OracleConnector,1071097,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071097,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071097,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071097,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071097,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071097,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071097,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071097,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071097,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071097,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071097,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071097,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071097,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071097,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071097,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071097,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071097,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071190,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071190,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071190,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071190,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071190,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071190,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071190,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071190,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071190,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071190,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071190,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071190,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071190,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071190,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071190,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071190,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071190,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071190,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071190,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071190,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071190,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071190,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071190,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,NDC,12,,,11,string[max=11]
+OracleConnector,1071190,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071190,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071190,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071190,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071190,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071190,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071190,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071190,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071190,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071190,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071190,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071190,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071190,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071190,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071190,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071190,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071190,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071291,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071291,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071291,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071291,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071291,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071291,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071291,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071291,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071291,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071291,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071291,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071291,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071291,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071291,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071291,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071291,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071291,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071291,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071291,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071291,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071291,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071291,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071291,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,NDC,12,,,11,string[max=11]
+OracleConnector,1071291,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071291,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071291,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071291,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071291,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071291,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071291,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071291,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071291,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071291,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071291,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071291,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071291,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071291,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071291,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071291,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071291,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071345,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071345,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071345,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071345,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071345,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071345,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071345,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071345,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071345,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071345,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071345,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071345,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071345,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071345,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071345,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071345,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071345,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071345,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071345,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071345,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071345,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071345,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071345,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,NDC,12,,,11,string[max=11]
+OracleConnector,1071345,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071345,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071345,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071345,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071345,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071345,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071345,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071345,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071345,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071345,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071345,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071345,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071345,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071345,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071345,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071345,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071345,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071417,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071417,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071417,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071417,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071417,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071417,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071417,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071417,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071417,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071417,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071417,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071417,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071417,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071417,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071417,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071417,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071417,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071417,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071417,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071417,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071417,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071417,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071417,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,NDC,12,,,11,string[max=11]
+OracleConnector,1071417,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071417,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071417,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071417,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071417,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071417,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071417,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071417,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071417,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071417,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071417,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071417,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071417,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071417,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071417,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071417,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071417,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071481,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071481,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071481,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071481,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071481,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071481,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071481,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071481,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071481,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071481,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071481,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071481,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071481,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071481,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071481,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071481,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071481,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071481,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071481,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071481,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071481,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071481,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071481,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,NDC,12,,,11,string[max=11]
+OracleConnector,1071481,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071481,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071481,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071481,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071481,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071481,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071481,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071481,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071481,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071481,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071481,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071481,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071481,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071481,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071481,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071481,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071481,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071533,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071533,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071533,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071533,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071533,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071533,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071533,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071533,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071533,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071533,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071533,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071533,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071533,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071533,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071533,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071533,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071533,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071533,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071533,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071533,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071533,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071533,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071533,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,NDC,12,,,11,string[max=11]
+OracleConnector,1071533,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071533,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071533,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071533,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071533,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071533,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071533,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071533,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071533,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071533,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071533,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071533,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071533,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071533,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071533,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071533,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071533,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071591,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071591,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071591,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071591,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071591,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071591,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071591,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071591,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071591,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071591,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071591,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071591,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071591,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071591,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071591,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071591,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071591,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071591,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071591,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071591,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071591,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071591,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071591,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,NDC,12,,,11,string[max=11]
+OracleConnector,1071591,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071591,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071591,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071591,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071591,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071591,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071591,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071591,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071591,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071591,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071591,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071591,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071591,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071591,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071591,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071591,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071591,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1071660,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1071660,DF,12,,,1,nullable string[max=1]
+OracleConnector,1071660,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1071660,BN,12,,,30,nullable string[max=30]
+OracleConnector,1071660,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071660,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071660,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1071660,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1071660,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1071660,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071660,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1071660,LN,12,,,30,nullable string[max=30]
+OracleConnector,1071660,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1071660,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1071660,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1071660,PD,12,,,10,nullable string[max=10]
+OracleConnector,1071660,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071660,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1071660,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1071660,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1071660,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071660,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,CL,12,,,1,nullable string[max=1]
+OracleConnector,1071660,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,NDC,12,,,11,string[max=11]
+OracleConnector,1071660,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1071660,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1071660,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1071660,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1071660,AD,12,,,20,nullable string[max=20]
+OracleConnector,1071660,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071660,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1071660,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1071660,UU,12,,,1,nullable string[max=1]
+OracleConnector,1071660,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1071660,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1071660,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1071660,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1071660,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1071660,UD,12,,,1,nullable string[max=1]
+OracleConnector,1071660,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1071660,LN25I,12,,,1,nullable string[max=1]
+DB2Connector,1071909,GPIDC,12,,,8,nullable string[max=8]
+DB2Connector,1071909,DF,12,,,1,nullable string[max=1]
+DB2Connector,1071909,OBSDTEC,12,,,8,nullable string[max=8]
+DB2Connector,1071909,BN,12,,,30,nullable string[max=30]
+DB2Connector,1071909,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+DB2Connector,1071909,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+DB2Connector,1071909,TOP200,12,,,3,nullable string[max=3]
+DB2Connector,1071909,DEA,12,,,1,nullable string[max=1]
+DB2Connector,1071909,NDCFI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,OUTPCKI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,BBDC,12,,,8,nullable string[max=8]
+DB2Connector,1071909,PS,3,,3,11,"nullable decimal[11,3]"
+DB2Connector,1071909,OBC3,12,,,3,nullable string[max=3]
+DB2Connector,1071909,LN,12,,,30,nullable string[max=30]
+DB2Connector,1071909,PPI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,INNOV,12,,,1,nullable string[max=1]
+DB2Connector,1071909,PLBLR,12,,,1,nullable string[max=1]
+DB2Connector,1071909,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+DB2Connector,1071909,PD,12,,,10,nullable string[max=10]
+DB2Connector,1071909,REPNDC,12,,,11,nullable string[max=11]
+DB2Connector,1071909,HOME,12,,,1,nullable string[max=1]
+DB2Connector,1071909,STPK,12,,,1,nullable string[max=1]
+DB2Connector,1071909,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+DB2Connector,1071909,MINI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+DB2Connector,1071909,GPI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,CL,12,,,1,nullable string[max=1]
+DB2Connector,1071909,INPCKI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,NDC,12,,,11,string[max=11]
+DB2Connector,1071909,OBC,12,,,2,nullable string[max=2]
+DB2Connector,1071909,LBLRID,12,,,6,nullable string[max=6]
+DB2Connector,1071909,LN25,12,,,25,nullable string[max=25]
+DB2Connector,1071909,HOSP,12,,,1,nullable string[max=1]
+DB2Connector,1071909,AD,12,,,20,nullable string[max=20]
+DB2Connector,1071909,SHIPPER,3,,,7,"nullable decimal[7,0]"
+DB2Connector,1071909,CSP,3,,,7,"nullable decimal[7,0]"
+DB2Connector,1071909,DADDNC,12,,,8,nullable string[max=8]
+DB2Connector,1071909,UU,12,,,1,nullable string[max=1]
+DB2Connector,1071909,TOP50GEN,12,,,2,nullable string[max=2]
+DB2Connector,1071909,IPI,12,,,1,nullable string[max=1]
+DB2Connector,1071909,MAINT,12,,,1,nullable string[max=1]
+DB2Connector,1071909,PNDC,12,,,11,nullable string[max=11]
+DB2Connector,1071909,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+DB2Connector,1071909,UD,12,,,1,nullable string[max=1]
+DB2Connector,1071909,REPACK,12,,,1,nullable string[max=1]
+DB2Connector,1071909,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1114701,GPIDC,12,,,8,nullable string[max=8]
+OracleConnector,1114701,DF,12,,,1,nullable string[max=1]
+OracleConnector,1114701,OBSDTEC,12,,,8,nullable string[max=8]
+OracleConnector,1114701,BN,12,,,30,nullable string[max=30]
+OracleConnector,1114701,NDL_GDGE,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1114701,SYR_CPCTY,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1114701,TOP200,12,,,3,nullable string[max=3]
+OracleConnector,1114701,DEA,12,,,1,nullable string[max=1]
+OracleConnector,1114701,NDCFI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,OUTPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,BBDC,12,,,8,nullable string[max=8]
+OracleConnector,1114701,PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1114701,OBC3,12,,,3,nullable string[max=3]
+OracleConnector,1114701,LN,12,,,30,nullable string[max=30]
+OracleConnector,1114701,PPI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,INNOV,12,,,1,nullable string[max=1]
+OracleConnector,1114701,PLBLR,12,,,1,nullable string[max=1]
+OracleConnector,1114701,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1114701,PD,12,,,10,nullable string[max=10]
+OracleConnector,1114701,REPNDC,12,,,11,nullable string[max=11]
+OracleConnector,1114701,HOME,12,,,1,nullable string[max=1]
+OracleConnector,1114701,STPK,12,,,1,nullable string[max=1]
+OracleConnector,1114701,NDL_LNGTH,3,,3,5,"nullable decimal[5,3]"
+OracleConnector,1114701,MINI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,SHLF_PCK,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1114701,GPI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,CL,12,,,1,nullable string[max=1]
+OracleConnector,1114701,INPCKI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,NDC,12,,,11,string[max=11]
+OracleConnector,1114701,OBC,12,,,2,nullable string[max=2]
+OracleConnector,1114701,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1114701,LN25,12,,,25,nullable string[max=25]
+OracleConnector,1114701,HOSP,12,,,1,nullable string[max=1]
+OracleConnector,1114701,AD,12,,,20,nullable string[max=20]
+OracleConnector,1114701,SHIPPER,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1114701,CSP,3,,,7,"nullable decimal[7,0]"
+OracleConnector,1114701,DADDNC,12,,,8,nullable string[max=8]
+OracleConnector,1114701,UU,12,,,1,nullable string[max=1]
+OracleConnector,1114701,TOP50GEN,12,,,2,nullable string[max=2]
+OracleConnector,1114701,IPI,12,,,1,nullable string[max=1]
+OracleConnector,1114701,MAINT,12,,,1,nullable string[max=1]
+OracleConnector,1114701,PNDC,12,,,11,nullable string[max=11]
+OracleConnector,1114701,PS_EQUIV,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1114701,UD,12,,,1,nullable string[max=1]
+OracleConnector,1114701,REPACK,12,,,1,nullable string[max=1]
+OracleConnector,1114701,LN25I,12,,,1,nullable string[max=1]
+OracleConnector,1114882,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1114882,GCN,3,,,5,"nullable decimal[5,0]"
+OracleConnector,1115341,GNN,12,,,30,nullable string[max=30]
+OracleConnector,1115341,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115341,GNN60,12,,,60,nullable string[max=60]
+OracleConnector,1115341,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115387,LBLRID,12,,,6,nullable string[max=6]
+OracleConnector,1115387,LBLRIND,12,,,1,nullable string[max=1]
+OracleConnector,1115387,MFG,12,,,15,nullable string[max=15]
+OracleConnector,1115435,AHFS_REL,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1115435,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1115435,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115435,AHFS8,3,,,8,"nullable decimal[8,0]"
+OracleConnector,1115476,GCRT,12,,,1,nullable string[max=1]
+OracleConnector,1115476,GTC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1115476,HICL_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115476,GCNSEQ_GI,12,,,1,nullable string[max=1]
+OracleConnector,1115476,HIC3,12,,,3,nullable string[max=3]
+OracleConnector,1115476,DCC,12,,,1,nullable string[max=1]
+OracleConnector,1115476,STR60,12,,,60,nullable string[max=60]
+OracleConnector,1115476,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1115476,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115476,STR,12,,,10,nullable string[max=10]
+OracleConnector,1115476,GENDER,12,,,1,nullable string[max=1]
+OracleConnector,1115476,TC,3,,,2,"nullable decimal[2,0]"
+OracleConnector,1115476,HIC3_SEQN,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115568,MDT_BC,12,,,11,nullable string[max=11]
+OracleConnector,1115568,MDT_FIDTE,12,,,8,nullable string[max=8]
+OracleConnector,1115568,MDT_MAX,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1115568,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1115568,MDT_MIN,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1115568,MDT_MAXC,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_PS,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1115568,MDT_GBC,12,,,11,nullable string[max=11]
+OracleConnector,1115568,MDT_ID,12,,,2,nullable string[max=2]
+OracleConnector,1115568,MDT_FREQ,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_SUB,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_BCDTE,12,,,8,nullable string[max=8]
+OracleConnector,1115568,MDT_LTC,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_GBCDTE,12,,,8,nullable string[max=8]
+OracleConnector,1115568,MDT_CODE1,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_RFL,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_COV,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_COP,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_SLC10,12,,,10,nullable string[max=10]
+OracleConnector,1115568,MDT_MINC,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_FI,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_QBU,12,,,10,nullable string[max=10]
+OracleConnector,1115568,MDT_PA,12,,,1,nullable string[max=1]
+OracleConnector,1115568,MDT_BU,12,,,2,nullable string[max=2]
+OracleConnector,1115568,MDT_FEE,12,,,1,nullable string[max=1]
+OracleConnector,1115666,GCDF,12,,,2,nullable string[max=2]
+OracleConnector,1115666,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115666,GCDF_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1115666,DOSE,12,,,10,nullable string[max=10]
+OracleConnector,1115719,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,1115719,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115719,STR60,12,,,60,nullable string[max=60]
+OracleConnector,1115719,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,1115719,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1115719,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,1115788,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1115788,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1115788,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,1115850,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1115850,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1115850,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,1115900,MCR_COV,12,,,1,nullable string[max=1]
+OracleConnector,1115900,MCR_DATEC,12,,,8,nullable string[max=8]
+OracleConnector,1115900,MCR_BC,12,,,5,nullable string[max=5]
+OracleConnector,1115900,MCR_REGION,12,,,1,nullable string[max=1]
+OracleConnector,1115900,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1115900,MCR_REF,12,,,5,nullable string[max=5]
+OracleConnector,1115956,RT,12,,,10,nullable string[max=10]
+OracleConnector,1115956,SYSTEMIC,12,,,1,nullable string[max=1]
+OracleConnector,1115956,GCRT2,12,,,2,nullable string[max=2]
+OracleConnector,1115956,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1115956,GCRT_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1116023,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1116023,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1116023,IPTISTRTDT,12,,,8,nullable string[max=8]
+OracleConnector,1120537,BLP_PRICE,3,,5,9,"nullable decimal[9,5]"
+OracleConnector,1120537,NDC,12,,,11,string[max=11]
+OracleConnector,1120537,GCN_SEQNO,3,,,6,"decimal[6,0]"
+OracleConnector,1120537,PS,3,,3,11,"decimal[11,3]"
+OracleConnector,1120537,BLP_DATEC,12,,,8,string[max=8]
+DB2Connector,1120630,BLP_PRICE,3,,5,9,"nullable decimal[9,5]"
+DB2Connector,1120630,NDC,12,,,11,string[max=11]
+DB2Connector,1120630,GCN_SEQNO,3,,,6,"decimal[6,0]"
+DB2Connector,1120630,PS,3,,3,11,"decimal[11,3]"
+DB2Connector,1120630,BLP_DATEC,12,,,8,string[max=8]
+OracleConnector,1123600,BLP_PRICE,3,,5,9,"nullable decimal[9,5]"
+OracleConnector,1123600,NDC,12,,,11,string[max=11]
+OracleConnector,1123600,GCN_SEQNO,3,,,6,"decimal[6,0]"
+OracleConnector,1123600,PS,3,,3,11,"decimal[11,3]"
+OracleConnector,1123600,BLP_DATEC,12,,,8,string[max=8]
+OracleConnector,1128216,NDC,12,,,11,string[max=11]
+OracleConnector,1128216,CAS9_TBL,3,,,9,"nullable decimal[9,0]"
+OracleConnector,1131135,NDC,12,,,11,string[max=11]
+OracleConnector,1131135,LBL_WARN,12,,,4,string[max=4]
+DB2Connector,1131198,NDC,12,,,11,string[max=11]
+DB2Connector,1131198,LBL_WARN,12,,,4,string[max=4]
+OracleConnector,1132704,NDC,12,,,11,string[max=11]
+OracleConnector,1132704,LBL_WARN,12,,,4,string[max=4]
+OracleConnector,1138719,NDC,12,,,11,string[max=11]
+OracleConnector,1138719,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1138719,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1144633,NDC,12,,,11,string[max=11]
+OracleConnector,1144633,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1144633,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1151063,NDC,12,,,11,string[max=11]
+OracleConnector,1151063,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1151063,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1156812,NDC,12,,,11,string[max=11]
+OracleConnector,1156812,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1156812,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1162538,NDC,12,,,11,string[max=11]
+OracleConnector,1162538,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1162538,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1168264,NDC,12,,,11,string[max=11]
+OracleConnector,1168264,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1168264,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1174634,NDC,12,,,11,string[max=11]
+OracleConnector,1174634,NPT_DATEC,1,,,8,string[8]
+OracleConnector,1174634,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1177203,DCC,12,,,1,string[max=1]
+OracleConnector,1177203,DCC_DESC,12,,,40,nullable string[max=40]
+DB2Connector,1177263,DCC,12,,,1,string[max=1]
+DB2Connector,1177263,DCC_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1178110,DCC,12,,,1,string[max=1]
+OracleConnector,1178110,DCC_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1180529,OBC_SN,2,,,2,"decimal[2,0]"
+OracleConnector,1180529,OBC,12,,,2,string[max=2]
+OracleConnector,1180529,OBC_DESC,12,,,60,nullable string[max=60]
+DB2Connector,1180593,OBC_SN,2,,,2,"decimal[2,0]"
+DB2Connector,1180593,OBC,12,,,2,string[max=2]
+DB2Connector,1180593,OBC_DESC,12,,,60,nullable string[max=60]
+OracleConnector,1181532,OBC_SN,2,,,2,"decimal[2,0]"
+OracleConnector,1181532,OBC,12,,,2,string[max=2]
+OracleConnector,1181532,OBC_DESC,12,,,60,nullable string[max=60]
+OracleConnector,1183970,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1183970,AHFS8,2,,,8,"decimal[8,0]"
+DB2Connector,1184030,AHFS_DESC,12,,,40,nullable string[max=40]
+DB2Connector,1184030,AHFS8,2,,,8,"decimal[8,0]"
+OracleConnector,1184896,AHFS_DESC,12,,,40,nullable string[max=40]
+OracleConnector,1184896,AHFS8,2,,,8,"decimal[8,0]"
+OracleConnector,1187366,GTC_DESC,12,,,50,nullable string[max=50]
+OracleConnector,1187366,GTC,2,,,2,"decimal[2,0]"
+DB2Connector,1187426,GTC_DESC,12,,,50,nullable string[max=50]
+DB2Connector,1187426,GTC,2,,,2,"decimal[2,0]"
+OracleConnector,1188281,GTC_DESC,12,,,50,nullable string[max=50]
+OracleConnector,1188281,GTC,2,,,2,"decimal[2,0]"
+OracleConnector,1190724,TC_DESC,12,,,50,nullable string[max=50]
+OracleConnector,1190724,TC,2,,,2,"decimal[2,0]"
+DB2Connector,1190784,TC_DESC,12,,,50,nullable string[max=50]
+DB2Connector,1190784,TC,2,,,2,"decimal[2,0]"
+OracleConnector,1191633,TC_DESC,12,,,50,nullable string[max=50]
+OracleConnector,1191633,TC,2,,,2,"decimal[2,0]"
+OracleConnector,1194172,HIC3_DESC,12,,,50,nullable string[max=50]
+OracleConnector,1194172,HIC3_GRPN,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1194172,HIC3_SEQN,2,,,6,"decimal[6,0]"
+OracleConnector,1194172,HIC3,12,,,3,string[max=3]
+DB2Connector,1194233,HIC3_DESC,12,,,50,nullable string[max=50]
+DB2Connector,1194233,HIC3_GRPN,2,,,6,"nullable decimal[6,0]"
+DB2Connector,1194233,HIC3_SEQN,2,,,6,"decimal[6,0]"
+DB2Connector,1194233,HIC3,12,,,3,string[max=3]
+OracleConnector,1195099,HIC3_DESC,12,,,50,nullable string[max=50]
+OracleConnector,1195099,HIC3_GRPN,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1195099,HIC3_SEQN,2,,,6,"decimal[6,0]"
+OracleConnector,1195099,HIC3,12,,,3,string[max=3]
+OracleConnector,1201553,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1201553,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1201553,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1201553,NDC,12,,,11,string[max=11]
+OracleConnector,1201553,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1201553,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1201553,OBC3,1,,,3,nullable string[3]
+OracleConnector,1201602,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1201602,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1201602,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1201602,NDC,12,,,11,string[max=11]
+OracleConnector,1201602,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1201602,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1201602,OBC3,1,,,3,nullable string[3]
+OracleConnector,1201653,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1201653,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1201653,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1201653,NDC,12,,,11,string[max=11]
+OracleConnector,1201653,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1201653,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1201653,OBC3,1,,,3,nullable string[3]
+DB2Connector,1201896,GMI,12,,,1,nullable string[max=1]
+DB2Connector,1201896,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+DB2Connector,1201896,DUPDC,1,,,8,nullable string[8]
+DB2Connector,1201896,NDC,12,,,11,string[max=11]
+DB2Connector,1201896,GNI,12,,,1,nullable string[max=1]
+DB2Connector,1201896,HCFA_TRMC,1,,,8,nullable string[8]
+DB2Connector,1201896,OBC3,1,,,3,nullable string[3]
+OracleConnector,1201954,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1201954,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1201954,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1201954,NDC,12,,,11,string[max=11]
+OracleConnector,1201954,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1201954,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1201954,OBC3,1,,,3,nullable string[3]
+OracleConnector,1202078,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1202078,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1202078,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1202078,NDC,12,,,11,string[max=11]
+OracleConnector,1202078,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1202078,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1202078,OBC3,1,,,3,nullable string[3]
+OracleConnector,1202185,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1202185,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1202185,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1202185,NDC,12,,,11,string[max=11]
+OracleConnector,1202185,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1202185,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1202185,OBC3,1,,,3,nullable string[3]
+OracleConnector,1202267,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1202267,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1202267,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1202267,NDC,12,,,11,string[max=11]
+OracleConnector,1202267,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1202267,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1202267,OBC3,1,,,3,nullable string[3]
+OracleConnector,1202380,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1202380,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1202380,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1202380,NDC,12,,,11,string[max=11]
+OracleConnector,1202380,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1202380,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1202380,OBC3,1,,,3,nullable string[3]
+OracleConnector,1210881,GMI,12,,,1,nullable string[max=1]
+OracleConnector,1210881,GCN_SEQNO,2,,,6,"nullable decimal[6,0]"
+OracleConnector,1210881,DUPDC,1,,,8,nullable string[8]
+OracleConnector,1210881,NDC,12,,,11,string[max=11]
+OracleConnector,1210881,GNI,12,,,1,nullable string[max=1]
+OracleConnector,1210881,HCFA_TRMC,1,,,8,nullable string[8]
+OracleConnector,1210881,OBC3,1,,,3,nullable string[3]
+OracleConnector,1210928,GCDF,1,,,2,nullable string[2]
+OracleConnector,1210928,GCRT,1,,,1,nullable string[1]
+OracleConnector,1210928,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1210978,VOLNUM,3,,3,7,"nullable decimal[7,3]"
+OracleConnector,1210978,GCN_SEQNO,3,,,6,"nullable decimal[6,0]"
+OracleConnector,1210978,STR60,12,,,60,nullable string[max=60]
+OracleConnector,1210978,STRUN50,12,,,50,nullable string[max=50]
+OracleConnector,1210978,STRNUM,3,,3,11,"nullable decimal[11,3]"
+OracleConnector,1210978,VOLUN50,12,,,50,nullable string[max=50]
+OracleConnector,1211259,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1211259,NPT_DATEC,1,,,8,nullable string[8]
+OracleConnector,1211259,NPT_PRICEX,3,,5,11,"nullable decimal[11,5]"
+OracleConnector,1211374,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1211374,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1211374,IPTISTRTDT,1,,,8,nullable string[8]
+OracleConnector,1211475,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1211475,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1211475,IPTISTRTDT,1,,,8,nullable string[8]
+OracleConnector,1211553,IPTNDC,12,,,20,nullable string[max=20]
+OracleConnector,1211553,IPTDESC,12,,,30,nullable string[max=30]
+OracleConnector,1211553,IPTISTRTDT,1,,,8,nullable string[8]
+OracleConnector,1211658,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1211658,ANDA_IND,2,,,1,"nullable decimal[1,0]"
+OracleConnector,1211658,NDA_IND,2,,,1,"nullable decimal[1,0]"
+OracleConnector,1226383,NDC_ATTRIBUTE_SN,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1226383,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+OracleConnector,1226383,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1226383,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+DB2Connector,1226448,NDC_ATTRIBUTE_SN,2,,,4,"nullable decimal[4,0]"
+DB2Connector,1226448,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+DB2Connector,1226448,NDC,12,,,11,nullable string[max=11]
+DB2Connector,1226448,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1227370,NDC_ATTRIBUTE_SN,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1227370,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+OracleConnector,1227370,NDC,12,,,11,nullable string[max=11]
+OracleConnector,1227370,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1229837,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1229837,NDC_ATTRIBUTE_TYPE_DSC,12,,,100,nullable string[max=100]
+DB2Connector,1229895,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+DB2Connector,1229895,NDC_ATTRIBUTE_TYPE_DSC,12,,,100,nullable string[max=100]
+OracleConnector,1230686,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1230686,NDC_ATTRIBUTE_TYPE_DSC,12,,,100,nullable string[max=100]
+OracleConnector,1233231,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+OracleConnector,1233231,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1233231,NDC_ATTRIBUTE_VALUE_DSC,12,,,50,nullable string[max=50]
+DB2Connector,1233292,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+DB2Connector,1233292,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+DB2Connector,1233292,NDC_ATTRIBUTE_VALUE_DSC,12,,,50,nullable string[max=50]
+OracleConnector,1234148,NDC_ATTRIBUTE_VALUE,12,,,50,nullable string[max=50]
+OracleConnector,1234148,NDC_ATTRIBUTE_TYPE_CD,2,,,4,"nullable decimal[4,0]"
+OracleConnector,1234148,NDC_ATTRIBUTE_VALUE_DSC,12,,,50,nullable string[max=50]
+OracleConnector,1277773,DUMMY,12,,,1,nullable string[max=1]
+OracleConnector,1278220,DUMMY,12,,,1,nullable string[max=1]
+OracleConnector,1284101,HIC_DESC,12,VARCHAR2,,50,nullable string[max=50]
+OracleConnector,1284101,HIC_SEQN,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,1284101,HIC,12,VARCHAR2,,6,nullable string[max=6]
+OracleConnector,1284101,HIC_ROOT,3,NUMBER,,6,"nullable decimal[6,0]"
+OracleConnector,1284101,HIC_POT_IN,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,1284101,ING_STATUS,3,NUMBER,,1,"nullable decimal[1,0]"
+OracleConnector,1288810,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,1288810,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,1292957,NDC,12,VARCHAR2,,11,string[max=11]
+OracleConnector,1292957,HIC_SEQN,3,NUMBER,,6,"decimal[6,0]"
+OracleConnector,1294735,NDC,12,VARCHAR2,,11,nullable string[max=11]
+OracleConnector,1300317,TM_ALTMEDD,12,VARCHAR2,,70,nullable string[max=70]
+OracleConnector,1300317,TM_SOURCID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,1300317,TM_GROUPID,3,NUMBER,,5,"nullable decimal[5,0]"
+OracleConnector,1300317,MEDID,3,NUMBER,,8,"nullable decimal[8,0]"
+OracleConnector,1300317,TM_IND,3,NUMBER,,1,"nullable decimal[1,0]"

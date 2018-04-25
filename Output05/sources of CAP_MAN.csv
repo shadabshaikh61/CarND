@@ -1,0 +1,514 @@
+name,sourceline,column,DSSQLType,DSNativeType,DSScale,DSSQLPrecision,DSSchema
+ODBCConnector,73,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,73,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,73,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,73,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,73,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,1139,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1139,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1192,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,1192,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,1192,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,1192,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,1192,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,1297,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,1297,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,3601,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,3601,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,3601,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,3601,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,3601,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,4901,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,4901,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,4954,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,4954,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,4954,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,4954,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,4954,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,5059,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,5059,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,7618,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,7618,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,7651,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,7651,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,7651,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,7651,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,7651,EFFECT_DTE,11,,3,19,timestamp[microseconds]
+ODBCConnector,7753,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,7753,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,11181,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,11181,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,11246,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,11246,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,11246,METRIC_SRC_FIELD,12,,,64,string[max=64]
+DB2Connector,11413,PARTITIONS,-9,,,255,nullable ustring[max=255]
+DB2Connector,11413,RUNID,-5,,,8,int64
+DB2Connector,11413,GRID_PARTITIONS,-9,,,255,nullable ustring[max=255]
+DB2Connector,11452,GRID_COMPUTENODES,-9,,,255,nullable ustring[max=255]
+DB2Connector,11452,RUNID,-5,,,8,int64
+DB2Connector,11452,COMPUTENODES,-9,,,255,nullable ustring[max=255]
+DB2Connector,11652,NUMINSTANCES,-9,,,255,nullable ustring[max=255]
+DB2Connector,11652,COUNTOFLINK,-9,,,255,nullable ustring[max=255]
+DB2Connector,11652,ELAPSEDRUNSECS,4,,,4,nullable int32
+DB2Connector,11652,Count_Of_Stages,-9,,,255,nullable ustring[max=255]
+DB2Connector,11652,PROJECTNAME,-9,,,80,nullable ustring[max=80]
+DB2Connector,11652,START_TIME,11,,6,26,nullable timestamp[microseconds]
+DB2Connector,11652,JOBNAME,-9,,,255,nullable ustring[max=255]
+DB2Connector,11652,AVG_Of_TOTAL_CPU,-9,,,255,nullable ustring[max=255]
+DB2Connector,11652,TOTALROWSPRODUCED,-5,,,8,nullable int64
+DB2Connector,11652,RUNID,-5,,,8,nullable int64
+DB2Connector,11652,TOTALROWSCONSUMED,-5,,,8,nullable int64
+ODBCConnector,18389,dummy,4,,,1,int32
+ODBCConnector,19031,dummy,4,,,1,int32
+ODBCConnector,19731,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,19731,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,19731,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,19731,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,19731,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,19731,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,19731,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,19731,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,19731,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,19731,agent_id,12,,,15,string[max=15]
+ODBCConnector,19731,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,19731,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,19731,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,19873,ROW_ADD_USER_ID,1,,,8,ustring[8]
+ODBCConnector,19873,ROW_UPDATE_USER_ID,1,,,8,ustring[8]
+ODBCConnector,19873,METRIC_ID,12,,,50,ustring[max=50]
+ODBCConnector,19873,METRIC_VALUE,12,,,50,ustring[max=50]
+ODBCConnector,19873,DIMENSION_ID,12,,,50,ustring[max=50]
+ODBCConnector,19873,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,19873,METRIC_TYPE,12,,,50,ustring[max=50]
+ODBCConnector,19873,RECORD_TYPE,12,,,50,ustring[max=50]
+ODBCConnector,19873,Agent_ID,12,,,15,string[max=15]
+ODBCConnector,19873,BATCH_NAME,12,,,50,ustring[max=50]
+ODBCConnector,19873,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,19873,APP_NAME,12,,,50,ustring[max=50]
+ODBCConnector,19873,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,23974,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,23974,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,23974,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,23974,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,23974,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,23974,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,23974,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,23974,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,23974,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,23974,agent_id,12,,,15,string[max=15]
+ODBCConnector,23974,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,23974,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,23974,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,26409,dummy,4,,,1,int32
+ODBCConnector,27002,dummy,4,,,1,int32
+ODBCConnector,27562,dummy,4,,,1,int32
+ODBCConnector,28540,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,28540,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,28605,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,28605,EFFECT_DTE,11,,3,19,timestamp[microseconds]
+ODBCConnector,28605,SERVER_NAME,12,,,555,string[max=555]
+ODBCConnector,28605,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,28605,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,28605,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,28784,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,28784,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,31844,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,31844,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,31877,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,31877,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,31877,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,31877,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,31877,EFFECT_DTE,11,,3,19,timestamp[microseconds]
+ODBCConnector,32055,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,32055,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,35057,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,35057,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,35057,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,35057,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,35057,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,35232,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,35232,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,37628,SERVER_NAME,12,,,255,string[max=255]
+ODBCConnector,37628,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,38612,dummy,4,,,1,int32
+ODBCConnector,39160,dummy,4,,,1,int32
+ODBCConnector,40122,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,40122,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,40197,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,40197,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,40398,VALUE,3,,4,21,"decimal[21,4]"
+ODBCConnector,40398,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,40398,EFFECT_DTE,12,,,17,string[max=17]
+ODBCConnector,40398,SYS_ASSET_ID,12,,,810,string[max=810]
+ODBCConnector,40398,AGNT_ID,12,,,32,string[max=32]
+ODBCConnector,43032,dummy,4,,,1,int32
+ODBCConnector,45433,END_DTE,12,,,6,string[max=6]
+ODBCConnector,45433,START_DTE,12,,,6,nullable string[max=6]
+ODBCConnector,46422,id,12,,,5,string[max=5]
+ODBCConnector,47530,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,47530,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,48271,METRIC_NAM,12,,,64,string[max=64]
+ODBCConnector,48271,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,59539,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,59539,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,59795,METRIC_ID,12,,,50,string[max=50]
+ODBCConnector,59795,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,106404,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,106404,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,106669,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,106669,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,106669,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,115536,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,115536,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,115700,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,115700,Accounting_cde,12,,,8,string[max=8]
+ODBCConnector,118937,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,118937,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,119470,DUMMY2,12,,,10,string[max=10]
+ODBCConnector,119470,Accounting_desc,12,,,80,string[max=80]
+ODBCConnector,119470,Accounting_cde,12,,,8,string[max=8]
+ODBCConnector,134596,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,134596,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,135121,DUMMY2,12,,,10,nullable string[max=10]
+ODBCConnector,135121,Accounting_desc,12,,,80,string[max=80]
+ODBCConnector,135121,Accounting_cde,12,,,8,string[max=8]
+ODBCConnector,149887,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,149887,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,150066,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,150066,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,150066,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,158464,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,158464,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,158643,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,158643,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,158643,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,164860,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,164860,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,165039,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,165039,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,165039,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,194427,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,194427,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,194427,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,194427,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,194427,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,194427,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,194427,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,194427,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,194427,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,194427,agent_id,12,,,15,string[max=15]
+ODBCConnector,194427,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,194427,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,194427,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,197890,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,197890,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,197890,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,197890,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,197890,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,197890,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,197890,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,197890,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,197890,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,197890,agent_id,12,,,15,string[max=15]
+ODBCConnector,197890,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,197890,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,197890,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,198032,ROW_ADD_USER_ID,1,,,8,ustring[8]
+ODBCConnector,198032,ROW_UPDATE_USER_ID,1,,,8,ustring[8]
+ODBCConnector,198032,METRIC_ID,12,,,50,ustring[max=50]
+ODBCConnector,198032,METRIC_VALUE,12,,,50,ustring[max=50]
+ODBCConnector,198032,DIMENSION_ID,12,,,50,ustring[max=50]
+ODBCConnector,198032,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,198032,METRIC_TYPE,12,,,50,ustring[max=50]
+ODBCConnector,198032,RECORD_TYPE,12,,,50,ustring[max=50]
+ODBCConnector,198032,Agent_ID,12,,,15,string[max=15]
+ODBCConnector,198032,BATCH_NAME,12,,,50,ustring[max=50]
+ODBCConnector,198032,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,198032,APP_NAME,12,,,50,ustring[max=50]
+ODBCConnector,198032,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,202178,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,202178,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,202178,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,202178,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,202178,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,202178,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,202178,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,202178,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,202178,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,202178,agent_id,12,,,15,string[max=15]
+ODBCConnector,202178,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,202178,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,202178,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,205286,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,205286,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,205286,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,205286,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,205286,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,205286,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,205286,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,205286,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,205286,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,205286,agent_id,12,,,15,string[max=15]
+ODBCConnector,205286,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,205286,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,205286,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,205428,ROW_ADD_USER_ID,1,,,8,ustring[8]
+ODBCConnector,205428,ROW_UPDATE_USER_ID,1,,,8,ustring[8]
+ODBCConnector,205428,METRIC_ID,12,,,50,ustring[max=50]
+ODBCConnector,205428,METRIC_VALUE,12,,,50,ustring[max=50]
+ODBCConnector,205428,DIMENSION_ID,12,,,50,ustring[max=50]
+ODBCConnector,205428,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,205428,METRIC_TYPE,12,,,50,ustring[max=50]
+ODBCConnector,205428,RECORD_TYPE,12,,,50,ustring[max=50]
+ODBCConnector,205428,Agent_ID,12,,,15,string[max=15]
+ODBCConnector,205428,BATCH_NAME,12,,,50,ustring[max=50]
+ODBCConnector,205428,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,205428,APP_NAME,12,,,50,ustring[max=50]
+ODBCConnector,205428,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,210293,dummy,4,,,1,int32
+ODBCConnector,258728,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,258728,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,258728,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,258728,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,258728,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,266977,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,266977,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,267030,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,267030,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,267135,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,267135,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,267212,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,267212,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,269266,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,269266,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,269317,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,269317,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,269317,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,269317,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,269317,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,269415,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,269415,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,270154,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,270154,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,270154,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,270154,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,270154,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,270921,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,270921,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,270921,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,270921,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,270921,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,279186,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,279186,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,279239,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,279239,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,279344,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,279344,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,279421,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,279421,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,281388,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,281388,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,281439,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,281439,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,281439,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,281439,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,281439,EFFECT_DTE,11,,3,19,timestamp
+ODBCConnector,281537,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,281537,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,294677,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,294677,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,294738,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,294738,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,294738,METRIC_SRC_FIELD,12,,,64,string[max=64]
+DB2Connector,294905,PARTITIONS,-9,,,255,nullable ustring[max=255]
+DB2Connector,294905,RUNID,-5,,,8,int64
+DB2Connector,294905,GRID_PARTITIONS,-9,,,255,nullable ustring[max=255]
+DB2Connector,294952,GRID_COMPUTENODES,-9,,,255,nullable ustring[max=255]
+DB2Connector,294952,RUNID,-5,,,8,int64
+DB2Connector,294952,COMPUTENODES,-9,,,255,nullable ustring[max=255]
+DB2Connector,295175,NUMINSTANCES,-9,,,255,nullable ustring[max=255]
+DB2Connector,295175,COUNTOFLINK,-9,,,255,nullable ustring[max=255]
+DB2Connector,295175,ELAPSEDRUNSECS,4,,,4,nullable int32
+DB2Connector,295175,Count_Of_Stages,-9,,,255,nullable ustring[max=255]
+DB2Connector,295175,PROJECTNAME,-9,,,80,nullable ustring[max=80]
+DB2Connector,295175,START_TIME,11,,6,26,nullable timestamp[microseconds]
+DB2Connector,295175,JOBNAME,-9,,,255,nullable ustring[max=255]
+DB2Connector,295175,AVG_Of_TOTAL_CPU,-9,,,255,nullable ustring[max=255]
+DB2Connector,295175,TOTALROWSPRODUCED,-5,,,8,nullable int64
+DB2Connector,295175,RUNID,-5,,,8,nullable int64
+DB2Connector,295175,TOTALROWSCONSUMED,-5,,,8,nullable int64
+ODBCConnector,296230,dummy,4,,,1,int32
+ODBCConnector,296750,dummy,4,,,1,int32
+ODBCConnector,297027,dummy,4,,,1,int32
+ODBCConnector,297616,dummy,4,,,1,int32
+ODBCConnector,297812,dummy,4,,,1,int32
+ODBCConnector,298012,dummy,4,,,1,int32
+ODBCConnector,298222,dummy,4,,,1,int32
+ODBCConnector,306593,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,306593,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,306658,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,306658,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,306709,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,306709,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,306837,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,306837,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,309368,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,309368,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,309431,SRC_FIELD_NAME,12,,,700,string[max=700]
+ODBCConnector,309431,EFFECT_DTE,11,,3,19,timestamp[microseconds]
+ODBCConnector,309431,SERVER_NAME,12,,,555,string[max=555]
+ODBCConnector,309431,VALUE,3,,,19,"decimal[19,0]"
+ODBCConnector,309431,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,309431,AGNT_ID,12,,,6,string[max=6]
+ODBCConnector,309602,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,309602,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,313023,SERVER_NAME,12,,,255,string[max=255]
+ODBCConnector,313023,SYS_ASSET_ID,12,,,100,string[max=100]
+ODBCConnector,313271,dummy,4,,,1,int32
+ODBCConnector,313463,dummy,4,,,1,int32
+ODBCConnector,321477,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,321477,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,321546,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,321546,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,321736,VALUE,3,,4,21,"decimal[21,4]"
+ODBCConnector,321736,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,321736,EFFECT_DTE,12,,,17,string[max=17]
+ODBCConnector,321736,SYS_ASSET_ID,12,,,810,string[max=810]
+ODBCConnector,321736,AGNT_ID,12,,,32,string[max=32]
+ODBCConnector,322225,dummy,4,,,1,int32
+ODBCConnector,328617,END_DTE,12,,,6,string[max=6]
+ODBCConnector,328617,START_DTE,12,,,6,nullable string[max=6]
+ODBCConnector,328882,id,12,,,5,string[max=5]
+ODBCConnector,339681,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,339681,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,339775,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,339775,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,340422,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,340422,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,350774,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,350774,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,351473,METRIC_NAM,12,,,64,string[max=64]
+ODBCConnector,351473,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,423842,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,423842,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,424093,METRIC_ID,12,,,50,string[max=50]
+ODBCConnector,424093,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,443020,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,443020,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,443275,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,443275,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,443275,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,452639,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,452639,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,452798,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,452798,Accounting_cde,12,,,8,string[max=8]
+ODBCConnector,472165,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,472165,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,472222,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,472222,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,472694,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,472694,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,486831,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,486831,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,487345,DUMMY2,12,,,10,string[max=10]
+ODBCConnector,487345,Accounting_desc,12,,,80,string[max=80]
+ODBCConnector,487345,Accounting_cde,12,,,8,string[max=8]
+ODBCConnector,507761,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,507761,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,507818,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,507818,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,508281,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,508281,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,522412,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,522412,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,522954,DUMMY2,12,,,10,nullable string[max=10]
+ODBCConnector,522954,Accounting_desc,12,,,80,string[max=80]
+ODBCConnector,522954,Accounting_cde,12,,,8,string[max=8]
+ODBCConnector,537991,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,537991,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,538059,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,538059,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,538166,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,538166,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,545906,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,545906,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,546077,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,546077,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,546077,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,559147,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,559147,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,559318,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,559318,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,559318,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,571726,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,571726,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,571897,DUMMY,12,,,10,nullable string[max=10]
+ODBCConnector,571897,METRIC_ID,12,,,32,string[max=32]
+ODBCConnector,571897,METRIC_SRC_FIELD,12,,,64,string[max=64]
+ODBCConnector,601968,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,601968,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,601968,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,601968,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,601968,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,601968,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,601968,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,601968,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,601968,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,601968,agent_id,12,,,15,string[max=15]
+ODBCConnector,601968,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,601968,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,601968,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,604083,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,604083,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,604083,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,604083,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,604083,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,604083,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,604083,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,604083,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,604083,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,604083,agent_id,12,,,15,string[max=15]
+ODBCConnector,604083,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,604083,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,604083,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,604224,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,604224,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,604224,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,604224,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,604224,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,604224,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,604224,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,604224,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,604224,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,604224,agent_id,12,,,15,string[max=15]
+ODBCConnector,604224,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,604224,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,604224,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,604283,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,604283,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,604283,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,604283,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,604283,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,604283,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,604283,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,604283,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,604283,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,604283,agent_id,12,,,15,string[max=15]
+ODBCConnector,604283,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,604283,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,604283,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,607023,ROW_ADD_USER_ID,1,,,8,string[8]
+ODBCConnector,607023,TXN_ATTRIBUTE_VALUE,12,,,50,string[max=50]
+ODBCConnector,607023,ROW_UPDATE_USER_ID,1,,,8,string[8]
+ODBCConnector,607023,EFFECT_DTE,11,,3,23,timestamp
+ODBCConnector,607023,TXN_ATTRIBUTE,12,,,50,string[max=50]
+ODBCConnector,607023,TXN_ATTRIBUTE_TYPE,12,,,50,string[max=50]
+ODBCConnector,607023,DEMOGRAPHIC,12,,,50,string[max=50]
+ODBCConnector,607023,RECORD_TYPE,12,,,50,string[max=50]
+ODBCConnector,607023,PAGE_NAME,12,,,50,string[max=50]
+ODBCConnector,607023,agent_id,12,,,15,string[max=15]
+ODBCConnector,607023,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,607023,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,607023,APP_NAME,12,,,50,string[max=50]
+ODBCConnector,608653,dummy,4,,,1,int32
+ODBCConnector,609164,dummy,4,,,1,int32

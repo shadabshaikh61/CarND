@@ -1,0 +1,800 @@
+name,sourceline,column,DSSQLType,DSNativeType,DSScale,DSSQLPrecision,DSSchema
+ODBCConnector,1961,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1961,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,2333,PFI38,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI46,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI09,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI29,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI34,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI47,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI22,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI08,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI26,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI23,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI15,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI14,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI17,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI16,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI11,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI10,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI35,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFDESC,1,,,30,string[30]
+DB2Connector,2333,PFI51,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI50,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI39,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI52,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI19,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI18,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI49,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI27,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFDFID,3,,,19,"decimal[19,0]"
+DB2Connector,2333,PFI33,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFNAME,1,,,10,string[10]
+DB2Connector,2333,PFI32,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI06,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI31,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI30,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI37,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI41,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI36,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFTYPE,1,,,1,string[1]
+DB2Connector,2333,PFI07,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI04,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI05,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI13,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI03,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI01,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI42,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI43,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI40,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI12,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI20,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI21,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI44,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI45,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI24,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFHSTP,3,,,3,"decimal[3,0]"
+DB2Connector,2333,PFI28,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI25,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI02,3,,2,5,"decimal[5,2]"
+DB2Connector,2333,PFI48,3,,2,5,"decimal[5,2]"
+ODBCConnector,25353,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,25353,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,232949,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,232949,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,440295,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,440295,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,642832,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,642832,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,691847,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,691847,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,695216,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,695216,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,695406,ICOVER,1,,,1,string[1]
+DB2Connector,695406,ICID,4,,,3,int32
+DB2Connector,695406,ICANTB,1,,,1,string[1]
+DB2Connector,695406,ICFCRD,1,,,1,string[1]
+DB2Connector,695406,ICALOW,1,,,1,string[1]
+DB2Connector,695406,ICNAME,12,,,10,string[max=10]
+ODBCConnector,700672,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,700672,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,701232,ITCROS,4,,,6,int32
+DB2Connector,701232,ITGLSL,12,,,24,string[max=24]
+DB2Connector,701232,ITPQFR,4,,,2,int32
+DB2Connector,701232,ITMDS1,12,,,12,string[max=12]
+DB2Connector,701232,ITMEDI,12,,,15,string[max=15]
+DB2Connector,701232,ITMCDP,12,,,49,string[max=49]
+DB2Connector,701232,ITSMPK,4,,,6,int32
+DB2Connector,701232,ITYNDC,12,,,15,string[max=15]
+DB2Connector,701232,ITRXDS,12,,,60,string[max=60]
+DB2Connector,701232,ITNWTT,1,,,1,string[1]
+DB2Connector,701232,ITMNPQ,12,,,20,string[max=20]
+DB2Connector,701232,ITPAMQ,4,,,3,int32
+DB2Connector,701232,ITREST,12,,,9,string[max=9]
+DB2Connector,701232,ITDLD,3,,,8,"decimal[8,0]"
+DB2Connector,701232,ITPWGT,3,,1,4,"decimal[4,1]"
+DB2Connector,701232,ITWLFN,12,,,60,string[max=60]
+DB2Connector,701232,ITGLCS,12,,,24,string[max=24]
+DB2Connector,701232,ITPUOM,12,,,2,string[max=2]
+DB2Connector,701232,ITSPCD,4,,,8,int32
+DB2Connector,701232,ITLADT,4,,,8,int32
+DB2Connector,701232,ITFSIN,4,,,6,int32
+DB2Connector,701232,ITFLNE,4,,,4,int32
+DB2Connector,701232,ITMUOM,12,,,2,string[max=2]
+DB2Connector,701232,ITPHGT,3,,3,6,"decimal[6,3]"
+DB2Connector,701232,ITSIZE,12,,,5,string[max=5]
+DB2Connector,701232,ITDESC,12,,,30,string[max=30]
+DB2Connector,701232,ITICCS,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITABUS,1,,,1,string[1]
+DB2Connector,701232,ITSPPM,1,,,1,string[1]
+DB2Connector,701232,ITSTTX,12,,,99,string[max=99]
+DB2Connector,701232,ITLRQE,1,,,1,string[1]
+DB2Connector,701232,ITVQD,1,,,1,string[1]
+DB2Connector,701232,ITMTCS,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITPUML,4,,,5,int32
+DB2Connector,701232,ITSUOM,12,,,2,string[max=2]
+DB2Connector,701232,ITSWGT,3,,1,4,"decimal[4,1]"
+DB2Connector,701232,ITFORM,12,,,2,string[max=2]
+DB2Connector,701232,ITGLIN,12,,,24,string[max=24]
+DB2Connector,701232,ITMOQ,4,,,7,int32
+DB2Connector,701232,ITPALW,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITCNVT,4,,,4,int32
+DB2Connector,701232,ITRX,1,,,1,string[1]
+DB2Connector,701232,ITRPLC,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITLPIP,3,,4,5,"decimal[5,4]"
+DB2Connector,701232,ITPASD,4,,,8,int32
+DB2Connector,701232,ITMUPC,12,,,12,string[max=12]
+DB2Connector,701232,ITMSTK,1,,,1,string[1]
+DB2Connector,701232,ITQUAL,12,,,15,string[max=15]
+DB2Connector,701232,ITPMPQ,4,,,7,int32
+DB2Connector,701232,ITVQDE,1,,,1,string[1]
+DB2Connector,701232,ITNSC,12,,,10,string[max=10]
+DB2Connector,701232,ITSTAT,1,,,1,string[1]
+DB2Connector,701232,ITUDOS,1,,,1,string[1]
+DB2Connector,701232,ITPAED,4,,,8,int32
+DB2Connector,701232,ITLPIN,3,,4,5,"decimal[5,4]"
+DB2Connector,701232,ITFLSN,4,,,3,int32
+DB2Connector,701232,ITPCST,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITMNDS,1,,,1,string[1]
+DB2Connector,701232,ITLPOD,4,,,8,int32
+DB2Connector,701232,ITINVT,1,,,1,string[1]
+DB2Connector,701232,ITVNSO,12,,,5,string[max=5]
+DB2Connector,701232,ITNBC,12,,,5,string[max=5]
+DB2Connector,701232,ITFBCS,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITMNRC,12,,,2,string[max=2]
+DB2Connector,701232,ITLCIP,3,,4,5,"decimal[5,4]"
+DB2Connector,701232,ITMDN1,12,,,60,string[max=60]
+DB2Connector,701232,ITPWTH,3,,3,6,"decimal[6,3]"
+DB2Connector,701232,ITPRDT,4,,,8,int32
+DB2Connector,701232,ITINVC,1,,,1,string[1]
+DB2Connector,701232,ITWLFS,12,,,12,string[max=12]
+DB2Connector,701232,ITCVNB,4,,,6,int32
+DB2Connector,701232,ITMNDC,12,,,12,string[max=12]
+DB2Connector,701232,ITSSIN,4,,,6,int32
+DB2Connector,701232,ITLOTC,1,,,1,string[1]
+DB2Connector,701232,ITAVWC,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITSLGN,3,,3,6,"decimal[6,3]"
+DB2Connector,701232,ITBALW,1,,,1,string[1]
+DB2Connector,701232,ITAWP,12,,,35,string[max=35]
+DB2Connector,701232,ITSRP,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITMMIC,1,,,1,string[1]
+DB2Connector,701232,ITOV1,1,,,1,string[1]
+DB2Connector,701232,ITVNSR,12,,,15,string[max=15]
+DB2Connector,701232,ITSPCG,1,,,1,string[1]
+DB2Connector,701232,ITSWTH,3,,3,6,"decimal[6,3]"
+DB2Connector,701232,ITNHRC,12,,,12,string[max=12]
+DB2Connector,701232,ITREFG,1,,,1,string[1]
+DB2Connector,701232,ITRPLP,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITNLBL,4,,,3,int32
+DB2Connector,701232,ITSINM,4,,,5,int32
+DB2Connector,701232,ITQULD,12,,,10,string[max=10]
+DB2Connector,701232,ITSINP,4,,,5,int32
+DB2Connector,701232,ITMNUM,3,,,6,"decimal[6,0]"
+DB2Connector,701232,ITOV12,1,,,1,string[1]
+DB2Connector,701232,ITVSUF,4,,,4,int32
+DB2Connector,701232,ITVBCS,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITPDPC,3,,2,4,"decimal[4,2]"
+DB2Connector,701232,ITSHGT,3,,3,6,"decimal[6,3]"
+DB2Connector,701232,ITVNDN,4,,,5,int32
+DB2Connector,701232,ITPEDT,4,,,8,int32
+DB2Connector,701232,ITCOMM,1,,,1,string[1]
+DB2Connector,701232,ITSDES,12,,,15,string[max=15]
+DB2Connector,701232,ITPSDT,4,,,8,int32
+DB2Connector,701232,ITPQTY,4,,,4,int32
+DB2Connector,701232,ITLSAD,4,,,8,int32
+DB2Connector,701232,ITLRCD,4,,,8,int32
+DB2Connector,701232,ITLCIN,3,,4,5,"decimal[5,4]"
+DB2Connector,701232,ITOV,1,,,1,string[1]
+DB2Connector,701232,ITLBCS,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITPSLP,3,,2,7,"decimal[7,2]"
+DB2Connector,701232,ITPLGN,3,,3,6,"decimal[6,3]"
+DB2Connector,701232,ITMSPH,12,,,2,string[max=2]
+ODBCConnector,716897,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,716897,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,722580,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,722580,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,723008,LCA310,12,,,24,string[max=24]
+DB2Connector,723008,LCDSVC,3,,2,4,"decimal[4,2]"
+DB2Connector,723008,LCSCSN,4,,,6,int32
+DB2Connector,723008,LCRCVW,12,,,10,string[max=10]
+DB2Connector,723008,LCSCWD,4,,,6,int32
+DB2Connector,723008,LCSCST,4,,,6,int32
+DB2Connector,723008,LCBFBR,4,,,4,int32
+DB2Connector,723008,LCAFRE,12,,,24,string[max=24]
+DB2Connector,723008,LCZIP,12,,,9,string[max=9]
+DB2Connector,723008,LCRCVD,12,,,10,string[max=10]
+DB2Connector,723008,LCCITY,12,,,20,string[max=20]
+DB2Connector,723008,LCCRDP,4,,,3,int32
+DB2Connector,723008,LCDEA__035__,12,,,9,string[max=9]
+DB2Connector,723008,LCCVR2,12,,,2,string[max=2]
+DB2Connector,723008,LCCRDA,12,,,2,string[max=2]
+DB2Connector,723008,LCSPER,4,,,2,int32
+DB2Connector,723008,LCSQTO,12,,,1,string[max=1]
+DB2Connector,723008,LCBARC,12,,,1,string[max=1]
+DB2Connector,723008,LCSOP2,12,,,1,string[max=1]
+DB2Connector,723008,LCSOP1,12,,,1,string[max=1]
+DB2Connector,723008,LCSCTU,4,,,6,int32
+DB2Connector,723008,LCWHSE,4,,,2,int32
+DB2Connector,723008,LCRTVP,4,,,3,int32
+DB2Connector,723008,LCSCMN,4,,,6,int32
+DB2Connector,723008,LCNAME,12,,,30,string[max=30]
+DB2Connector,723008,LCRTVA,12,,,2,string[max=2]
+DB2Connector,723008,LCSCTH,4,,,6,int32
+DB2Connector,723008,LCNRSC,3,,2,7,"decimal[7,2]"
+DB2Connector,723008,LCCCAL,12,,,1,string[max=1]
+DB2Connector,723008,LCRECP,4,,,3,int32
+DB2Connector,723008,LCMNDT,4,,,8,int32
+DB2Connector,723008,LCDDWH,12,,,4,string[max=4]
+DB2Connector,723008,LCTRCO,12,,,1,string[max=1]
+DB2Connector,723008,LCFDA__035__,12,,,9,string[max=9]
+DB2Connector,723008,LCRECA,12,,,2,string[max=2]
+DB2Connector,723008,LCPAR__035__,4,,,6,int32
+DB2Connector,723008,LCBCT__035__,4,,,3,int32
+DB2Connector,723008,LCBLTD,4,,,8,int32
+DB2Connector,723008,LCADD2,12,,,30,string[max=30]
+DB2Connector,723008,LCADD1,12,,,30,string[max=30]
+DB2Connector,723008,LCMSG1,12,,,50,string[max=50]
+DB2Connector,723008,LCMSG2,12,,,50,string[max=50]
+DB2Connector,723008,LCISTA,12,,,1,string[max=1]
+DB2Connector,723008,LCAMSC,12,,,24,string[max=24]
+DB2Connector,723008,LCASTK,12,,,24,string[max=24]
+DB2Connector,723008,ES9NBR,4,,,3,int32
+DB2Connector,723008,LCCOP2,12,,,1,string[max=1]
+DB2Connector,723008,LCCOP1,12,,,1,string[max=1]
+DB2Connector,723008,LCODEA,12,,,9,string[max=9]
+DB2Connector,723008,LCSCAL,12,,,1,string[max=1]
+DB2Connector,723008,LCPODT,4,,,8,int32
+DB2Connector,723008,LCSCRA,12,,,2,string[max=2]
+DB2Connector,723008,LCPHNA,4,,,3,int32
+DB2Connector,723008,LCDDEA,4,,,8,int32
+DB2Connector,723008,LCABCD,12,,,1,string[max=1]
+DB2Connector,723008,LCSTAT,12,,,2,string[max=2]
+DB2Connector,723008,LCSVR1,12,,,2,string[max=2]
+DB2Connector,723008,LCSVR2,12,,,2,string[max=2]
+DB2Connector,723008,LCSVR3,12,,,2,string[max=2]
+DB2Connector,723008,LCSCRP,4,,,3,int32
+DB2Connector,723008,LCTRNI,12,,,24,string[max=24]
+DB2Connector,723008,LCCVR1,12,,,2,string[max=2]
+DB2Connector,723008,LCTRNO,12,,,24,string[max=24]
+DB2Connector,723008,LCCVR3,12,,,2,string[max=2]
+DB2Connector,723008,LCMONW,4,,,3,int32
+DB2Connector,723008,LCPAGE,4,,,5,int32
+DB2Connector,723008,LCSCFR,4,,,6,int32
+DB2Connector,723008,LCCPER,4,,,2,int32
+DB2Connector,723008,LCSTMU,3,,2,3,"decimal[3,2]"
+DB2Connector,723008,LCPHNE,4,,,3,int32
+DB2Connector,723008,LCJDEC,4,,,5,int32
+DB2Connector,723008,LCADDT,4,,,8,int32
+DB2Connector,723008,LCPHNN,4,,,4,int32
+ODBCConnector,736922,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,736922,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,755319,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,755319,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,755641,PODDLF,12,,,1,string[max=1]
+DB2Connector,755641,PODPDP,3,,3,5,"decimal[5,3]"
+DB2Connector,755641,PODFBC,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODAMT,3,,2,11,"decimal[11,2]"
+DB2Connector,755641,PODESC,12,,,30,string[max=30]
+DB2Connector,755641,PODPD__036__,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODSZE,12,,,5,string[max=5]
+DB2Connector,755641,PODVBC,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODWHS,4,,,2,int32
+DB2Connector,755641,PODRPS,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODNUM,4,,,7,int32
+DB2Connector,755641,PODPUM,12,,,2,string[max=2]
+DB2Connector,755641,PODINV,12,,,1,string[max=1]
+DB2Connector,755641,PODVND,4,,,5,int32
+DB2Connector,755641,PODPY__036__,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODPYP,3,,3,5,"decimal[5,3]"
+DB2Connector,755641,PODFRM,12,,,2,string[max=2]
+DB2Connector,755641,PODMTC,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODCAT,12,,,15,string[max=15]
+DB2Connector,755641,PODSPR,12,,,1,string[max=1]
+DB2Connector,755641,PODUDC,12,,,12,string[max=12]
+DB2Connector,755641,PODCVL,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODLBC,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODWGT,4,,,7,int32
+DB2Connector,755641,PODDPT,4,,,3,int32
+DB2Connector,755641,PODSTS,12,,,1,string[max=1]
+DB2Connector,755641,PODDTE,4,,,8,int32
+DB2Connector,755641,PODUOR,4,,,7,int32
+DB2Connector,755641,PODSEQ,4,,,3,int32
+DB2Connector,755641,PODDL__035__,4,,,7,int32
+DB2Connector,755641,PODPCK,12,,,2,string[max=2]
+DB2Connector,755641,PODGL__035__,12,,,24,string[max=24]
+DB2Connector,755641,PODITM,4,,,6,int32
+DB2Connector,755641,PODRSN,12,,,2,string[max=2]
+DB2Connector,755641,PODCDT,4,,,8,int32
+DB2Connector,755641,PODICC,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODRPP,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODIAC,12,,,1,string[max=1]
+DB2Connector,755641,PODLC,12,,,30,string[max=30]
+DB2Connector,755641,PODPID,3,,2,7,"decimal[7,2]"
+DB2Connector,755641,PODURC,4,,,7,int32
+DB2Connector,755641,PODUCS,3,,5,11,"decimal[11,5]"
+DB2Connector,755641,PODDCS,4,,,6,int32
+ODBCConnector,763776,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,763776,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,764109,POMWHS,4,,,2,int32
+DB2Connector,764109,POMUTR,4,,,7,int32
+DB2Connector,764109,POME3,1,,,1,string[1]
+DB2Connector,764109,POMSTS,12,,,1,string[max=1]
+DB2Connector,764109,POPOOL,4,,,3,int32
+DB2Connector,764109,POMTRM,12,,,30,string[max=30]
+DB2Connector,764109,POMERT,12,,,2,string[max=2]
+DB2Connector,764109,POMVND,4,,,5,int32
+DB2Connector,764109,POMDSP,3,,3,5,"decimal[5,3]"
+DB2Connector,764109,POMREQ,12,,,30,string[max=30]
+DB2Connector,764109,POMLIN,4,,,3,int32
+DB2Connector,764109,POMLDT,4,,,8,int32
+DB2Connector,764109,POMWGT,4,,,7,int32
+DB2Connector,764109,POMDAT,4,,,8,int32
+DB2Connector,764109,POMDCS,4,,,6,int32
+DB2Connector,764109,POMTYP,1,,,1,string[1]
+DB2Connector,764109,PORORP,1,,,1,string[1]
+DB2Connector,764109,POMPST,12,,,1,string[max=1]
+DB2Connector,764109,POMDEA,12,,,9,string[max=9]
+DB2Connector,764109,POTERM,12,,,2,string[max=2]
+DB2Connector,764109,POMDCM,4,,,8,int32
+DB2Connector,764109,POMRIT,4,,,5,int32
+DB2Connector,764109,POMEC2,12,,,26,string[max=26]
+DB2Connector,764109,POMEC1,12,,,26,string[max=26]
+DB2Connector,764109,POMEPO,1,,,1,string[1]
+DB2Connector,764109,POMBUY,4,,,3,int32
+DB2Connector,764109,POMCVL,4,,2,7,int32
+DB2Connector,764109,POMEA4,12,,,9,string[max=9]
+DB2Connector,764109,POMEA1,12,,,25,string[max=25]
+DB2Connector,764109,POMEA2,12,,,25,string[max=25]
+DB2Connector,764109,POMEA3,12,,,16,string[max=16]
+DB2Connector,764109,POMUNT,4,,,7,int32
+DB2Connector,764109,POMITO,4,,,5,int32
+DB2Connector,764109,POMETR,1,,,1,string[1]
+DB2Connector,764109,POMEPR,1,,,1,string[1]
+DB2Connector,764109,POMCHI,12,,,9,string[max=9]
+DB2Connector,764109,POEXDY,4,,,3,int32
+DB2Connector,764109,POMBLN,12,,,9,string[max=9]
+DB2Connector,764109,POMNUM,4,,,7,int32
+DB2Connector,764109,POMER,4,,,6,int32
+DB2Connector,764109,POEXDT,4,,,8,int32
+DB2Connector,764109,POMAMT,3,,2,11,"decimal[11,2]"
+DB2Connector,764109,POMCFM,12,,,30,string[max=30]
+DB2Connector,764109,POMEDL,4,,,8,int32
+DB2Connector,764109,POMDS,3,,2,11,"decimal[11,2]"
+DB2Connector,764109,POMEE,4,,,6,int32
+ODBCConnector,771952,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,771952,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,772201,WDLOC,3,,,2,"decimal[2,0]"
+DB2Connector,772201,WDZONE,1,,,2,string[2]
+DB2Connector,772201,WDLOT,1,,,15,string[15]
+DB2Connector,772201,WDVNDN,3,,,5,"decimal[5,0]"
+DB2Connector,772201,WDRTYP,1,,,1,string[1]
+DB2Connector,772201,WDBIN,1,,,2,string[2]
+DB2Connector,772201,WDDSPY,1,,,1,string[1]
+DB2Connector,772201,WDITEM,3,,,6,"decimal[6,0]"
+DB2Connector,772201,WDATYP,1,,,1,string[1]
+DB2Connector,772201,WDBAY,1,,,2,string[2]
+DB2Connector,772201,WDOLOC,3,,,2,"decimal[2,0]"
+DB2Connector,772201,WDAISL,1,,,2,string[2]
+DB2Connector,772201,WDEXPD,3,,,8,"decimal[8,0]"
+DB2Connector,772201,WDPON,1,,,25,string[25]
+DB2Connector,772201,WDTOTE,3,,,3,"decimal[3,0]"
+DB2Connector,772201,WDUSET,1,,,1,string[1]
+DB2Connector,772201,WDPO,3,,,7,"decimal[7,0]"
+DB2Connector,772201,WDMDAT,3,,,8,"decimal[8,0]"
+DB2Connector,772201,WDTIER,1,,,1,string[1]
+DB2Connector,772201,WDTIME,3,,,6,"decimal[6,0]"
+DB2Connector,772201,WDQTYA,3,,,7,"decimal[7,0]"
+DB2Connector,772201,WDDATE,3,,,8,"decimal[8,0]"
+DB2Connector,772201,WDSTAT,1,,,1,string[1]
+OracleConnector,776350,dummy,12,,,10,string[max=10]
+OracleConnector,777740,UTCLNT,12,,,15,string[max=15]
+OracleConnector,777740,UTCLNT_count,-5,,,10,int64
+ODBCConnector,780956,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,780956,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,780988,ITEMNUMBER,4,,,8,int32
+OracleConnector,780988,LCWHSE,4,,,2,int32
+OracleConnector,780988,ITVNDN,4,,,5,int32
+OracleConnector,780988,LCDEA__035__,12,,,9,string[max=9]
+OracleConnector,780988,ITMNUM,4,,,6,int32
+TeradataConnector,781213,PROD_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,781213,CORP_ITEM_NUM,4,,,7,nullable int32
+OracleConnector,781266,PODWHS,4,,,2,nullable int32
+OracleConnector,781266,PODUOR,4,,,7,nullable int32
+OracleConnector,781266,PODITM,4,,,6,nullable int32
+OracleConnector,781324,WDLOC,4,,,2,nullable int32
+OracleConnector,781324,WDITEM,4,,,6,nullable int32
+OracleConnector,781324,WDQTYA,4,,,7,nullable int32
+TeradataConnector,781374,DEA_LIC_NUM,12,,,9,nullable string[max=9]
+TeradataConnector,781374,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,781420,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,781420,RFRNC_DTE,11,,6,29,nullable timestamp
+OracleConnector,781476,OTSHWS,4,,,2,nullable int32
+OracleConnector,781476,PAQTY,4,,,7,nullable int32
+OracleConnector,781476,ORDTIT,4,,,6,nullable int32
+OracleConnector,781559,OTSHWS,4,,,2,nullable int32
+OracleConnector,781559,ORDTSQ,4,,,7,nullable int32
+OracleConnector,781559,ORDTIT,4,,,6,nullable int32
+OracleConnector,781614,OTSHWS,4,,,2,nullable int32
+OracleConnector,781614,ORDTSQ,4,,,7,nullable int32
+OracleConnector,781614,ORDTIT,4,,,6,nullable int32
+OracleConnector,781719,SNAME,12,,,30,nullable string[max=30]
+OracleConnector,781719,SXPRD__035__,3,,,3,"nullable decimal[3,0]"
+OracleConnector,782092,PFI38,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI46,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI29,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI47,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI22,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI08,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI26,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI23,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI15,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI14,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI17,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI16,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI11,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI10,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI35,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI34,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI51,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI50,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI39,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI52,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI19,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI18,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI49,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI27,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI45,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI33,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI32,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI31,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,SKITEM,12,,,30,string[max=30]
+OracleConnector,782092,PFI30,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,SKCLNT,12,,,10,string[max=10]
+OracleConnector,782092,PFI37,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI41,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI36,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI06,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI07,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI04,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI05,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI13,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI03,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI01,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI42,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI43,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI40,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI12,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI20,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI21,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI44,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI09,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI24,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI28,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI25,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI02,3,,2,5,"decimal[5,2]"
+OracleConnector,782092,PFI48,3,,2,5,"decimal[5,2]"
+ODBCConnector,799262,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,799262,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,799294,ITEMNUMBER,4,,,8,int32
+OracleConnector,799294,LCWHSE,4,,,2,int32
+OracleConnector,799294,ITVNDN,4,,,5,int32
+OracleConnector,799294,LCDEA__035__,12,,,9,string[max=9]
+OracleConnector,799294,ITMNUM,4,,,6,int32
+TeradataConnector,799519,PROD_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,799519,CORP_ITEM_NUM,4,,,7,nullable int32
+OracleConnector,799572,PODWHS,4,,,2,nullable int32
+OracleConnector,799572,PODUOR,4,,,7,nullable int32
+OracleConnector,799572,PODITM,4,,,6,nullable int32
+OracleConnector,799630,WDLOC,4,,,2,nullable int32
+OracleConnector,799630,WDITEM,4,,,6,nullable int32
+OracleConnector,799630,WDQTYA,4,,,7,nullable int32
+TeradataConnector,799680,DEA_LIC_NUM,12,,,9,nullable string[max=9]
+TeradataConnector,799680,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,799726,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,799726,RFRNC_DTE,11,,6,29,nullable timestamp
+OracleConnector,799782,OTSHWS,4,,,2,nullable int32
+OracleConnector,799782,PAQTY,4,,,7,nullable int32
+OracleConnector,799782,ORDTIT,4,,,6,nullable int32
+OracleConnector,799865,OTSHWS,4,,,2,nullable int32
+OracleConnector,799865,ORDTSQ,4,,,7,nullable int32
+OracleConnector,799865,ORDTIT,4,,,6,nullable int32
+OracleConnector,799920,OTSHWS,4,,,2,nullable int32
+OracleConnector,799920,ORDTSQ,4,,,7,nullable int32
+OracleConnector,799920,ORDTIT,4,,,6,nullable int32
+OracleConnector,800025,SNAME,12,,,30,nullable string[max=30]
+OracleConnector,800025,SXPRD__035__,3,,,3,"nullable decimal[3,0]"
+OracleConnector,800398,PFI38,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI46,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI29,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI47,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI22,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI08,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI26,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI23,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI15,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI14,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI17,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI16,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI11,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI10,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI35,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI34,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI51,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI50,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI39,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI52,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI19,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI18,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI49,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI27,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI45,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI33,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI32,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI31,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,SKITEM,12,,,30,string[max=30]
+OracleConnector,800398,PFI30,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,SKCLNT,12,,,10,string[max=10]
+OracleConnector,800398,PFI37,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI41,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI36,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI06,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI07,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI04,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI05,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI13,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI03,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI01,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI42,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI43,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI40,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI12,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI20,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI21,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI44,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI09,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI24,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI28,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI25,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI02,3,,2,5,"decimal[5,2]"
+OracleConnector,800398,PFI48,3,,2,5,"decimal[5,2]"
+ODBCConnector,817231,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,817231,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,817540,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,817540,RFRNC_DTE,9,,9,10,nullable date
+TeradataConnector,817582,DEA_LIC_NUM,12,,,10,nullable ustring[max=10]
+TeradataConnector,817582,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,817646,CORP_ITEM_NUM,3,,,7,"nullable decimal[7,0]"
+TeradataConnector,817646,PROD_KEY_NUM,4,,,10,nullable int32
+OracleConnector,887771,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,887771,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,894193,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,894193,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,894553,PFI38,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI46,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI09,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI29,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI34,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI47,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI22,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI08,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI26,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI23,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI15,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI14,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI17,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI16,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI11,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI10,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI35,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFDESC,1,,,30,string[30]
+DB2Connector,894553,PFI51,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI50,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI39,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI52,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI19,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI18,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI49,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI27,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFDFID,3,,,19,"decimal[19,0]"
+DB2Connector,894553,PFI33,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFNAME,1,,,10,string[10]
+DB2Connector,894553,PFI32,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI06,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI31,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI30,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI37,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI41,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI36,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFTYPE,1,,,1,string[1]
+DB2Connector,894553,PFI07,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI04,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI05,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI13,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI03,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI01,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI42,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI43,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI40,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI12,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI20,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI21,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI44,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI45,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI24,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFHSTP,3,,,3,"decimal[3,0]"
+DB2Connector,894553,PFI28,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI25,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI02,3,,2,5,"decimal[5,2]"
+DB2Connector,894553,PFI48,3,,2,5,"decimal[5,2]"
+ODBCConnector,920078,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,920078,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,920111,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,920111,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1112641,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1112641,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1158554,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1158554,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1194495,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1194495,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1207235,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1207235,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1209460,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1209460,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1217685,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1217685,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,1217863,ICOVER,1,,,1,string[1]
+DB2Connector,1217863,ICID,4,,,3,int32
+DB2Connector,1217863,ICANTB,1,,,1,string[1]
+DB2Connector,1217863,ICFCRD,1,,,1,string[1]
+DB2Connector,1217863,ICALOW,1,,,1,string[1]
+DB2Connector,1217863,ICNAME,12,,,10,string[max=10]
+OracleConnector,1226899,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1226899,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1229564,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1229564,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1239531,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1239531,ETL_JOBID,12,,,8,nullable string[max=8]
+DB2Connector,1239768,WDLOC,3,,,2,"decimal[2,0]"
+DB2Connector,1239768,WDZONE,1,,,2,string[2]
+DB2Connector,1239768,WDLOT,1,,,15,string[15]
+DB2Connector,1239768,WDVNDN,3,,,5,"decimal[5,0]"
+DB2Connector,1239768,WDRTYP,1,,,1,string[1]
+DB2Connector,1239768,WDBIN,1,,,2,string[2]
+DB2Connector,1239768,WDDSPY,1,,,1,string[1]
+DB2Connector,1239768,WDITEM,3,,,6,"decimal[6,0]"
+DB2Connector,1239768,WDATYP,1,,,1,string[1]
+DB2Connector,1239768,WDBAY,1,,,2,string[2]
+DB2Connector,1239768,WDOLOC,3,,,2,"decimal[2,0]"
+DB2Connector,1239768,WDAISL,1,,,2,string[2]
+DB2Connector,1239768,WDEXPD,3,,,8,"decimal[8,0]"
+DB2Connector,1239768,WDPON,1,,,25,string[25]
+DB2Connector,1239768,WDTOTE,3,,,3,"decimal[3,0]"
+DB2Connector,1239768,WDUSET,1,,,1,string[1]
+DB2Connector,1239768,WDPO,3,,,7,"decimal[7,0]"
+DB2Connector,1239768,WDMDAT,3,,,8,"decimal[8,0]"
+DB2Connector,1239768,WDTIER,1,,,1,string[1]
+DB2Connector,1239768,WDTIME,3,,,6,"decimal[6,0]"
+DB2Connector,1239768,WDQTYA,3,,,7,"decimal[7,0]"
+DB2Connector,1239768,WDDATE,3,,,8,"decimal[8,0]"
+DB2Connector,1239768,WDSTAT,1,,,1,string[1]
+OracleConnector,1244470,dummy,12,,,10,string[max=10]
+OracleConnector,1250046,UTCLNT,12,,,15,string[max=15]
+OracleConnector,1250046,UTCLNT_count,-5,,,10,int64
+ODBCConnector,1266247,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1266247,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1266280,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1266280,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,1266504,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,1266504,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1266557,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1266557,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1266615,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1266615,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,1266665,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,1266665,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,1266710,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,1266710,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1266767,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1266767,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1266850,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1266850,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1266905,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1266905,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1267010,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1267010,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,1267193,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+TeradataConnector,1267193,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1267382,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+OracleConnector,1267382,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,1283257,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1283257,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,1283296,ITEMNUMBER,4,,,8,int32
+OracleConnector,1283296,LCWHSE,4,,,2,int32
+OracleConnector,1283296,ITVNDN,4,,,5,int32
+OracleConnector,1283296,LCDEA__035__,12,,,9,string[max=9]
+OracleConnector,1283296,ITMNUM,4,,,6,int32
+TeradataConnector,1283513,PROD_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,1283513,CORP_ITEM_NUM,4,,,7,nullable int32
+OracleConnector,1283564,PODWHS,4,,,2,nullable int32
+OracleConnector,1283564,PODUOR,4,,,7,nullable int32
+OracleConnector,1283564,PODITM,4,,,6,nullable int32
+OracleConnector,1283620,WDLOC,4,,,2,nullable int32
+OracleConnector,1283620,WDITEM,4,,,6,nullable int32
+OracleConnector,1283620,WDQTYA,4,,,7,nullable int32
+TeradataConnector,1283668,DEA_LIC_NUM,12,,,9,nullable string[max=9]
+TeradataConnector,1283668,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,1283712,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,1283712,RFRNC_DTE,11,,6,29,nullable timestamp
+OracleConnector,1283766,OTSHWS,4,,,2,nullable int32
+OracleConnector,1283766,PAQTY,4,,,7,nullable int32
+OracleConnector,1283766,ORDTIT,4,,,6,nullable int32
+OracleConnector,1283845,OTSHWS,4,,,2,nullable int32
+OracleConnector,1283845,ORDTSQ,4,,,7,nullable int32
+OracleConnector,1283845,ORDTIT,4,,,6,nullable int32
+OracleConnector,1283898,OTSHWS,4,,,2,nullable int32
+OracleConnector,1283898,ORDTSQ,4,,,7,nullable int32
+OracleConnector,1283898,ORDTIT,4,,,6,nullable int32
+OracleConnector,1283997,SNAME,12,,,30,nullable string[max=30]
+OracleConnector,1283997,SXPRD__035__,3,,,3,"nullable decimal[3,0]"
+OracleConnector,1284356,PFI38,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI46,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI29,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI47,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI22,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI08,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI26,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI23,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI15,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI14,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI17,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI16,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI11,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI10,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI35,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI34,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI51,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI50,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI39,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI52,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI19,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI18,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI49,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI27,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI45,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI33,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI32,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI31,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,SKITEM,12,,,30,string[max=30]
+OracleConnector,1284356,PFI30,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,SKCLNT,12,,,10,string[max=10]
+OracleConnector,1284356,PFI37,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI41,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI36,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI06,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI07,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI04,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI05,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI13,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI03,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI01,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI42,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI43,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI40,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI12,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI20,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI21,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI44,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI09,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI24,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI28,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI25,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI02,3,,2,5,"decimal[5,2]"
+OracleConnector,1284356,PFI48,3,,2,5,"decimal[5,2]"
+ODBCConnector,1299739,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,1299739,ETL_JOBID,12,,,8,nullable string[max=8]
+TeradataConnector,1300030,DTE_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,1300030,RFRNC_DTE,9,,9,10,nullable date
+TeradataConnector,1300070,DEA_LIC_NUM,12,,,10,nullable ustring[max=10]
+TeradataConnector,1300070,DIST_CENTER_KEY_NUM,4,,,10,nullable int32
+TeradataConnector,1300133,CORP_ITEM_NUM,3,,,7,"nullable decimal[7,0]"
+TeradataConnector,1300133,PROD_KEY_NUM,4,,,10,nullable int32

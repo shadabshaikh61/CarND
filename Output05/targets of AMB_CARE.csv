@@ -1,0 +1,159 @@
+name,sourceline,column,DSSQLType,DSNativeType,DSScale,DSSQLPrecision,DSSchema
+OracleConnector,717,ROW_ADD_USER_ID,12,,,8,string[max=8]
+OracleConnector,717,ROW_UPDATE_STP,11,,,19,timestamp
+OracleConnector,717,ASC_PREF_PRICE,3,,2,13,"nullable decimal[13,2]"
+OracleConnector,717,MTL_NUM,12,,,30,string[max=30]
+OracleConnector,717,PO_PREF_PRICE,3,,2,13,"nullable decimal[13,2]"
+OracleConnector,717,MARKET_PRICE,3,,2,13,"nullable decimal[13,2]"
+OracleConnector,717,ROW_ADD_STP,11,,,19,timestamp
+OracleConnector,717,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+OracleConnector,717,UOM,12,,,3,string[max=3]
+ODBCConnector,3850,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,3850,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,3850,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,3850,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,3850,REP_ID,12,,,4,string[max=4]
+ODBCConnector,3850,SEQ_NO,4,,,10,int32
+ODBCConnector,3850,CUST_SHIP_ID,12,,,10,nullable string[max=10]
+ODBCConnector,3850,EMAIL_MANAGER,12,,,40,nullable string[max=40]
+ODBCConnector,3850,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,3850,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,3850,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,3850,ORDER_ID,12,,,20,nullable string[max=20]
+ODBCConnector,3850,ORD_LINE_ITEMS,12,,,10,nullable string[max=10]
+ODBCConnector,3850,QTY_ORDERED,12,,,50,nullable string[max=50]
+ODBCConnector,3850,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,3850,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,3850,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,3850,DLR_AMNT_ORDERED,3,,8,36,"nullable decimal[36,8]"
+ODBCConnector,11743,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,11743,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,11743,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,11743,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,11743,REP_ID,12,,,4,string[max=4]
+ODBCConnector,11743,SEQ_NO,4,,,10,int32
+ODBCConnector,11743,COMPUTER_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,11743,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,11743,EMAIL_ADDRESS,12,,,40,nullable string[max=40]
+ODBCConnector,11743,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,11743,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,11743,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,11743,LAST_SYNC_SALES_TRAK,11,,3,23,nullable timestamp
+ODBCConnector,11743,LAST_SYNC_ORDER_TRAK,11,,3,23,nullable timestamp
+ODBCConnector,11743,MANIFEST_NAME,12,,,50,nullable string[max=50]
+ODBCConnector,11743,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,11743,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,21195,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,21195,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,21195,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,21195,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,21195,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,21195,VIEW_TYPE,12,,,2,string[max=2]
+ODBCConnector,21195,EMAIL_ADDRESS,12,,,39,nullable string[max=39]
+ODBCConnector,21195,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,21195,REP_ID,12,,,4,string[max=4]
+ODBCConnector,21195,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,21195,SEQ_NO,4,,,10,int32
+ODBCConnector,21195,DURATION,4,,,10,nullable int32
+ODBCConnector,21195,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,21195,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,21195,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,29495,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,29495,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,29495,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,29495,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,29495,REP_ID,12,,,4,string[max=4]
+ODBCConnector,29495,SEQ_NO,4,,,10,int32
+ODBCConnector,29495,DURATION,4,,,10,nullable int32
+ODBCConnector,29495,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,29495,EMAIL_ADDRESS,12,,,40,nullable string[max=40]
+ODBCConnector,29495,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,29495,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,29495,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,29495,DOCUMENT_PATH,12,,,256,nullable string[max=256]
+ODBCConnector,29495,PAGE_NUM,4,,,10,nullable int32
+ODBCConnector,29495,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,29495,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,37179,SEQ_NO,4,,,10,int32
+ODBCConnector,37212,SEQ_NO,4,,,10,int32
+ODBCConnector,37245,SEQ_NO,4,,,10,int32
+ODBCConnector,37278,SEQ_NO,4,,,10,int32
+OracleConnector,56419,ROW_ADD_USER_ID,12,,,8,string[max=8]
+OracleConnector,56419,ROW_UPDATE_STP,11,,,19,timestamp
+OracleConnector,56419,ASC_PREF_PRICE,3,,2,13,"nullable decimal[13,2]"
+OracleConnector,56419,MTL_NUM,12,,,30,string[max=30]
+OracleConnector,56419,PO_PREF_PRICE,3,,2,13,"nullable decimal[13,2]"
+OracleConnector,56419,MARKET_PRICE,3,,2,13,"nullable decimal[13,2]"
+OracleConnector,56419,ROW_ADD_STP,11,,,19,timestamp
+OracleConnector,56419,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+OracleConnector,56419,UOM,12,,,3,string[max=3]
+ODBCConnector,74780,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,74780,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,74780,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,74780,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,74780,REP_ID,12,,,4,string[max=4]
+ODBCConnector,74780,SEQ_NO,4,,,10,int32
+ODBCConnector,74780,CUST_SHIP_ID,12,,,10,nullable string[max=10]
+ODBCConnector,74780,EMAIL_MANAGER,12,,,40,nullable string[max=40]
+ODBCConnector,74780,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,74780,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,74780,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,74780,ORDER_ID,12,,,20,nullable string[max=20]
+ODBCConnector,74780,ORD_LINE_ITEMS,12,,,10,nullable string[max=10]
+ODBCConnector,74780,QTY_ORDERED,12,,,50,nullable string[max=50]
+ODBCConnector,74780,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,74780,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,74780,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,74780,DLR_AMNT_ORDERED,3,,8,36,"nullable decimal[36,8]"
+ODBCConnector,99734,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,99734,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,99734,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,99734,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,99734,REP_ID,12,,,4,string[max=4]
+ODBCConnector,99734,SEQ_NO,4,,,10,int32
+ODBCConnector,99734,COMPUTER_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,99734,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,99734,EMAIL_ADDRESS,12,,,40,nullable string[max=40]
+ODBCConnector,99734,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,99734,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,99734,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,99734,LAST_SYNC_SALES_TRAK,11,,3,23,nullable timestamp
+ODBCConnector,99734,LAST_SYNC_ORDER_TRAK,11,,3,23,nullable timestamp
+ODBCConnector,99734,MANIFEST_NAME,12,,,50,nullable string[max=50]
+ODBCConnector,99734,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,99734,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,122413,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,122413,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,122413,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,122413,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,122413,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,122413,VIEW_TYPE,12,,,2,string[max=2]
+ODBCConnector,122413,EMAIL_ADDRESS,12,,,39,nullable string[max=39]
+ODBCConnector,122413,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,122413,REP_ID,12,,,4,string[max=4]
+ODBCConnector,122413,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,122413,SEQ_NO,4,,,10,int32
+ODBCConnector,122413,DURATION,4,,,10,nullable int32
+ODBCConnector,122413,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,122413,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,122413,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,142891,FIRST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,142891,LAST_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,142891,COMP_CODE,12,,,20,nullable string[max=20]
+ODBCConnector,142891,ROW_ADD_STP,11,,3,23,timestamp
+ODBCConnector,142891,REP_ID,12,,,4,string[max=4]
+ODBCConnector,142891,SEQ_NO,4,,,10,int32
+ODBCConnector,142891,DURATION,4,,,10,nullable int32
+ODBCConnector,142891,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,142891,EMAIL_ADDRESS,12,,,40,nullable string[max=40]
+ODBCConnector,142891,ROW_ADD_USER_ID,12,,,8,string[max=8]
+ODBCConnector,142891,DATE_TIME_STAMP,11,,3,23,timestamp
+ODBCConnector,142891,ROW_UPDATE_USER_ID,12,,,8,string[max=8]
+ODBCConnector,142891,DOCUMENT_PATH,12,,,256,nullable string[max=256]
+ODBCConnector,142891,PAGE_NUM,4,,,10,nullable int32
+ODBCConnector,142891,REPORT_MANAGER,12,,,35,nullable string[max=35]
+ODBCConnector,142891,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,146102,SEQ_NO,4,,,10,int32
+ODBCConnector,146133,SEQ_NO,4,,,10,int32
+ODBCConnector,146164,SEQ_NO,4,,,10,int32
+ODBCConnector,146195,SEQ_NO,4,,,10,int32

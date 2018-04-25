@@ -1,0 +1,93 @@
+name,sourceline,column,DSSQLType,DSNativeType,DSScale,DSSQLPrecision,DSSchema
+ODBCConnector,595,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,595,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,3491,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,3491,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,3606,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,3606,SLSRP_NUM,12,,,4,string[max=4]
+OracleConnector,3606,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,3606,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,3606,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,3775,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,3775,REP_ID,12,,,4,nullable string[max=4]
+ODBCConnector,3813,SEQ_NO,4,,,10,nullable int32
+ODBCConnector,11421,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,11421,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,11500,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,11500,REP_ID,12,,,4,nullable string[max=4]
+OracleConnector,11554,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,11554,SLSRP_NUM,12,,,4,string[max=4]
+OracleConnector,11554,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,11554,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,11554,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,11687,SEQ_NO,4,,,10,nullable int32
+ODBCConnector,20815,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,20815,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,20891,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,20891,REP_ID,12,,,4,nullable string[max=4]
+ODBCConnector,20891,VIEW_TYPE,12,,,2,nullable string[max=2]
+ODBCConnector,21157,SEQ_NO,4,,,10,nullable int32
+OracleConnector,21327,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,21327,SLSRP_NUM,12,,,4,string[max=4]
+OracleConnector,21327,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,21327,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,21327,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,29114,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,29114,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,29146,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,29146,SLSRP_NUM,12,,,4,nullable string[max=4]
+OracleConnector,29146,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,29146,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,29146,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,29268,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,29268,REP_ID,12,,,4,nullable string[max=4]
+ODBCConnector,29439,SEQ_NO,4,,,10,nullable int32
+ODBCConnector,37114,SEQ_NO,4,,,10,int32
+ODBCConnector,37114,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,37114,REPORT_TAG,12,,,3,string[max=3]
+ODBCConnector,56307,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,56307,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,74446,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,74446,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,74553,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,74553,SLSRP_NUM,12,,,4,string[max=4]
+OracleConnector,74553,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,74553,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,74553,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,74708,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,74708,REP_ID,12,,,4,nullable string[max=4]
+ODBCConnector,74745,SEQ_NO,4,,,10,nullable int32
+ODBCConnector,99433,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,99433,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,99506,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,99506,REP_ID,12,,,4,nullable string[max=4]
+OracleConnector,99558,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,99558,SLSRP_NUM,12,,,4,string[max=4]
+OracleConnector,99558,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,99558,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,99558,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,99682,SEQ_NO,4,,,10,nullable int32
+ODBCConnector,122062,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,122062,ETL_JOBID,12,,,8,nullable string[max=8]
+ODBCConnector,122132,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,122132,REP_ID,12,,,4,nullable string[max=4]
+ODBCConnector,122132,VIEW_TYPE,12,,,2,nullable string[max=2]
+ODBCConnector,122377,SEQ_NO,4,,,10,nullable int32
+OracleConnector,122541,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,122541,SLSRP_NUM,12,,,4,string[max=4]
+OracleConnector,122541,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,122541,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,122541,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,142535,ETL_JOB_NAME,12,,,80,nullable string[max=80]
+ODBCConnector,142535,ETL_JOBID,12,,,8,nullable string[max=8]
+OracleConnector,142567,EMAIL_ADDR,12,,,39,nullable string[max=39]
+OracleConnector,142567,SLSRP_NUM,12,,,4,nullable string[max=4]
+OracleConnector,142567,SLSRP_FST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,142567,SLSRP_LAST_NAME,12,,,35,nullable string[max=35]
+OracleConnector,142567,RPTG_MGR_NAME,12,,,35,nullable string[max=35]
+ODBCConnector,142681,DATE_TIME_STAMP,11,,3,23,nullable timestamp
+ODBCConnector,142681,REP_ID,12,,,4,nullable string[max=4]
+ODBCConnector,142839,SEQ_NO,4,,,10,nullable int32
+ODBCConnector,146041,SEQ_NO,4,,,10,int32
+ODBCConnector,146041,ROW_UPDATE_STP,11,,3,23,timestamp
+ODBCConnector,146041,REPORT_TAG,12,,,3,string[max=3]
