@@ -62,7 +62,7 @@ for root,dire,files in os.walk(output_file_dir):
 					if("ds to" in movement.lower()):
 						index_movement = mapping[all_connector[index_conn]].index(movement)
 						
-			
+			re.match("(nullable|Not supported|Unknown)?[\s]?([a-zA-Z0-9_]*)[\s]*.*[\s]*[\[.*\]|\(.*\)]?",x,re.M)
 						
 		
 		error_file.close()
