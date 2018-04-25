@@ -30,10 +30,42 @@ for line in f_mapping:
 	if(words[dtype_index] not in mapping[words[connector_index]][words[mapping_index]]):
 		mapping[words[connector_index]][words[mapping_index]].append(words[dtype_index])
 
+all_connector = mapping.keys()
 for root,dire,files in os.walk(output_file_dir):
 	for single_file in files:
-		current_file = open(root+"/"+single_file,'r')
-		error_file = open()
+		current_file = open(root+"/"+single_file, 'r')
+		error_file = open(output_file_dir+"/error_"+single_file, 'w')
+		
+		line = f_mapping.readline()
+		line = line.strip("'").strip("\n")
+		col_line = line.lower().split(",")
+		
+		connector_name = col_line.index("name")
+		schema = col_line.index("dsschema")
+		
+		for line in f_mapping:
+			line = "".join(line.split("\n"))
+			words = line.split(",")
+			index_conn = None
+			for conn_from_list in all_connector:
+				if(words[connector_name] in conn_from_list):
+					index_conn = all_connector.index(conn_from_list)
+					break
+			index_movement = 0
+			if("target" in single_file.lower()): 	#for target file
+				for movement in mapping[all_connector[index_conn]]:
+					if("to ds" in movement.lower()):
+						index_movement = mapping[all_connector[index_conn]].index(movement)
+
+			else:	# for source file
+				for movement in mapping[all_connector[index_conn]]:
+					if("ds to" in movement.lower()):
+						index_movement = mapping[all_connector[index_conn]].index(movement)
+						
+			
+						
+		
+		error_file.close()
 		current_file.close()
 
 		
